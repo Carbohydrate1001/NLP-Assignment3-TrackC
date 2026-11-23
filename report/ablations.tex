@@ -1,0 +1,22 @@
+\begin{table}[H]\centering\small
+\begin{tabular}{lrrr}
+\toprule R1 component & Dev & Cap rate & Output tokens \\
+\midrule
+Neither (R0) & 26\% & 70\% & 24,488 \\
+Instruction only & 37\% & 44\% & 22,360 \\
+Demonstrations only & 48\% & 31\% & 19,893 \\
+Both (R1) & 40\% & 29\% & 17,510 \\
+\bottomrule\end{tabular}
+\caption{Instruction and demonstration ablation; all other settings are fixed.}
+\end{table}
+\begin{table}[H]\centering\small
+\begin{tabular}{lrrrr}
+\toprule Decoding & Dev & Generations & Output tokens & Seconds \\
+\midrule
+Greedy (R2) & 48\% & 100 & 15,098 & 61.6 \\
+Fixed three & 49\% & 300 & 48,949 & 173.8 \\
+Adaptive (R4) & 53\% & 394 & 65,839 & 208.5 \\
+Fixed five & 56\% & 500 & 82,447 & 276.1 \\
+\bottomrule\end{tabular}
+\caption{Sampling comparison with the same R2 instruction and static demonstrations. All sampled variants include one greedy answer.}
+\end{table}
