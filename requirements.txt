@@ -1,0 +1,5 @@
+# Install a CUDA-compatible PyTorch separately (see README).
+transformers==4.57.3
+datasets==4.4.1
+matplotlib==3.10.7
+requests==2.32.5
