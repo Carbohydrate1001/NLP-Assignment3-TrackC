@@ -1,0 +1,11 @@
+{
+  "base_round": "R2",
+  "failure_source": "R2",
+  "evidence_ids": [
+    819,
+    4247,
+    3115
+  ],
+  "designed_utc": "2026-11-23T06:38:47.992293+00:00",
+  "rationale": "R3 question-dependent lexical retrieval reduced full-dev accuracy from 48% to 36%, so retain the stronger R2 static three-demo harness as the parent of this new decoding round. R2 dev 819 reaches the correct remaining 200 tins but fails to divide by four days; 4247 mis-sums player times and repeats the averaging calculation until cutoff; 3115 takes half of the white-bean count instead of half of the remaining count. These incorrect multi-step trajectories motivate sampling alternative solutions and aggregating numeric answers. Use one greedy plus two sampled answers (temperature 0.7, top_p 0.95), add two more only if no valid answer has two votes, and majority-vote with deterministic first-appearance ties. No correctness labels enter the stopping rule. The round may still fail when wrong answers agree. Compare fixed3/fixed5 on the same static harness to isolate the adaptive rule."
+}

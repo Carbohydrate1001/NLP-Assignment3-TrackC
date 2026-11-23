@@ -1,0 +1,11 @@
+{
+  "rationale": "API-driven search using current-best dev failures.",
+  "budget": 8,
+  "successful_proposals": 8,
+  "failure_source": "R1",
+  "evidence_ids": [
+    2184,
+    5897,
+    2437
+  ]
+}

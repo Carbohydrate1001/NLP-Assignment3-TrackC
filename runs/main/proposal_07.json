@@ -1,0 +1,32 @@
+{
+  "config": {
+    "instruction": "Work one step per line, deriving each value directly from the text. Watch comparisons carefully: identify who is more/less and in which direction. Never invent variables or assume unstated equalities. Answer only the asked quantity, ending with: #### <number>",
+    "demo_ids": [
+      13,
+      4,
+      19
+    ]
+  },
+  "audit": {
+    "model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "base_url": "https://api.deepseek.com",
+    "response": "{\n  \"instruction\": \"Work one step per line, deriving each value directly from the text. Watch comparisons carefully: identify who is more/less and in which direction. Never invent variables or assume unstated equalities. Answer only the asked quantity, ending with: #### <number>\",\n  \"demo_ids\": [13, 4, 19]\n}",
+    "usage": {
+      "prompt_tokens": 5081,
+      "completion_tokens": 74,
+      "total_tokens": 5155,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 5081
+    },
+    "request_hash": "9881ab0496860eb26ac4f1dbbf6c850d5e310ab1413cb27d8b64e3c7a15ec771",
+    "thinking": {
+      "type": "disabled"
+    },
+    "elapsed_seconds": 1.0430828999960795
+  },
+  "time_utc": "2026-11-23T06:33:36.396377+00:00"
+}

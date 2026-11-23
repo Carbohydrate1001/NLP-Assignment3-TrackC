@@ -1,0 +1,1146 @@
+[
+  {
+    "id": 2184,
+    "question": "Frankie's parents let him have many pets. He has six more snakes than he has cats. He has one less parrot than cats. Six of his pets have four legs. He has 2 dogs. How many pets does he have in total?",
+    "gold": "19",
+    "gold_solution": "He has 6 - 2 = <<6-2=4>>4 cats.\nHe has 4 - 1 = <<4-1=3>>3 parrots.\nHe has 4 + 6 = <<4+6=10>>10 snakes.\nHe has a total of 2 + 4 + 3 + 10 = <<2+4+3+10=19>>19 pets.\n#### 19",
+    "prediction": "7.5",
+    "correct": false,
+    "responses": [
+      "Let's denote the number of cats Frankie has as \\( C \\). According to the information given:\n\n1. He has six more snakes than cats:\n\\[ S = C + 6 \\]\n\n2. He has one less parrot than cats:\n\\[ P = C - 1 \\]\n\n3. Six of his pets have four legs:\n\\[ 4C = 6 \\]\nThis implies:\n\\[ C = \\frac{6}{4} = 1.5 \\]\nSince the number of cats must be an integer, we need to check if there's another possible solution where the number of cats is not an integer. However, since the question asks for the number of cats directly, we'll proceed with this assumption.\n\nNow, let's find out how many snakes and dogs Frankie has:\n\nFrom point 1:\n\\[ S = C + 6 \\]\nSubstituting \\( C = 1.5 \\):\n\\[ S = 1.5 + 6 = 7.5 \\]\nAgain, since the number of snakes must be an integer, we can't have 7.5 snakes. This means our initial assumption about the number of cats being incorrect or the calculation might have been misunderstood. Let's re-evaluate the problem with the"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 5897,
+    "question": "Olaf collects colorful toy cars. At first, his collection consisted of 150 cars. His family, knowing his hobby, decided to give him some toy cars. Grandpa gave Olaf twice as many toy cars as the uncle. Dad gave Olaf 10 toy cars, 5 less than Mum. Auntie gave Olaf 6 toy cars, 1 more than the uncle. How many toy cars does Olaf have in total, after receiving all these gifts?",
+    "gold": "196",
+    "gold_solution": "Dad gave Olaf 10 toy cars,\nMom has given Olaf 5 more toy cars than Dad, so 10 + 5 = <<10+5=15>>15 toy cars\nAuntie gave Olaf 6 toy cars,\nUncle has given 1 less toy than Auntie, so 6 - 1 = <<6-1=5>>5 toy cars\nGrandpa gave Olaf 2 * 5 = <<2*5=10>>10 toy cars.\nAll the family together gave Olaf 10 +15 + 6 + 5 + 10 = <<10+15+6+5+10=46>>46.\nAdding the cars Olaf already had, Olaf's collection has 150 + 46 = <<150+46=196>>196 cars.\n#### 196",
+    "prediction": "182",
+    "correct": false,
+    "responses": [
+      "First, let's determine how many toy cars each person gave Olaf:\n\nGrandpa gave Olaf \\(2 \\times\\) (Uncle's gift) = \\(2 \\times 10 = 20\\) toy cars.\nDad gave Olaf \\(10\\) toy cars.\nMum gave Olaf \\(5\\) toy cars.\nAuntie gave Olaf \\(6\\) toy cars.\nUncle gave Olaf \\(1\\) toy car.\n\nNow, let's add up all the toys given away:\n\n\\(20\\) (Grandpa) + \\(10\\) (Dad) + \\(5\\) (Mum) + \\(6\\) (Auntie) + \\(1\\) (Uncle) = \\(32\\) toy cars.\n\nOlaf originally had \\(150\\) toy cars. After receiving the gifts, he has:\n\n\\(150\\) (original amount) + \\(32\\) (gifts) = \\(182\\) toy cars.\n\nTherefore, the total number of toy cars Olaf has after receiving all the gifts is **182**."
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 226,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 5878,
+    "question": "TreQuan is throwing rocks in the river and he notices that the bigger the rock, the wider the splash. Pebbles make a splash that is a 1/4 meter wide. Rocks make a splash that is 1/2 a meter wide, and boulders create a splash that is 2 meters wide. If he tosses 6 pebbles, 3 rocks, and 2 boulders, what is the total width of the splashes he makes?",
+    "gold": "7",
+    "gold_solution": "The pebble's total splash width is 1.5 meters because 6 times 1/4 equals <<6*1/4=1.5>>1.5.\nThe rock's total splash width is 1.5 meters because 3 times 1/2 equals <<3*1/2=1.5>>1.5.\nThe boulder's total splash width is 4 because 2 times 2 equals four.\nThe total splash width for all the rocks is 7 because 1.5 plus 1.5 plus 4 equals 7.\n#### 7",
+    "prediction": "4",
+    "correct": false,
+    "responses": [
+      "First, let's calculate the total width of the splashes made by each type of rock:\n\n1. Pebbles:\n   Each pebble creates a splash that is \\( \\frac{1}{4} \\) meter wide.\n   For 6 pebbles, the total width is \\( 6 \\times \\frac{1}{4} = \\frac{6}{4} = 1.5 \\) meters.\n\n2. Rocks:\n   Each rock creates a splash that is \\( \\frac{1}{2} \\) meter wide.\n   For 3 rocks, the total width is \\( 3 \\times \\frac{1}{2} = \\frac{3}{2} = 1.5 \\) meters.\n\n3. Boulders:\n   Each boulder creates a splash that is 2 meters wide.\n   For 2 boulders, the total width is \\( 2 \\times 2 = 4 \\) meters.\n\nNow, we add up all the widths to find the total width of the splashes:\n\nTotal width = Width of pebbles + Width of rocks + Width of boulders\nTotal width = \\( 1.5 + 1.5 + 4 \\)\nTotal width = \\("
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 5302,
+    "question": "Pauly is making omelets for his family. There are three dozen eggs, and he plans to use them all. Each omelet requires 4 eggs. Including himself, there are 3 people. How many omelets does each person get?",
+    "gold": "3",
+    "gold_solution": "He has 36 eggs because 3 x 12 = <<3*12=36>>36\nHe can make 9 omelets because 36 / 4 = <<36/4=9>>9\nEach person gets 3 omelets because 9 / 3 = <<9/3=3>>3\n#### 3",
+    "prediction": "1",
+    "correct": false,
+    "responses": [
+      "Pauly has a total of 3 dozen eggs, which is equal to \\(3 \\times 12 = 36\\) eggs. Since he uses all these eggs to make omelets, each omelet will require 4 eggs. Given that there are 3 people including Pauly, each person gets \\(4 \\div 3 = \\frac{4}{3}\\) omelets. However, since you can't have a fraction of an omelet, we need to consider if this results in a whole number or not. In this case, it doesn't result in a whole number because 4 divided by 3 isn't a whole number. Therefore, each person gets 1 omelet (since 4 divided by 3 leaves a remainder). \n\n#### 1"
+    ],
+    "marked": [
+      true
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 165,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 2663,
+    "question": "Nicky is trading baseball cards with Jill. If Nicky trades two cards worth $8 each for 1 card worth $21, how many dollars of profit does he make?",
+    "gold": "5",
+    "gold_solution": "First find the total cost of the two $8 cards: $8/card * 2 cards = $<<8*2=16>>16\nThen subtract the cost of the cards Nicky gave away from the cost of the card he received to find his profit: $21 - $16 = $<<21-16=5>>5\n#### 5",
+    "prediction": "16",
+    "correct": false,
+    "responses": [
+      "First, let's calculate the total value of the cards traded:\n\nNicky trades 2 cards worth $8 each for 1 card worth $21.\n\nTotal value of the cards traded:\n\\[ 2 \\text{ cards} \\times \\$8/\\text{card} + 1 \\text{ card} \\times \\$21/\\text{card} \\]\n\\[ = 2 \\times \\$8 + 1 \\times \\$21 \\]\n\\[ = \\$16 + \\$21 \\]\n\\[ = \\$37 \\]\n\nNow, we subtract this amount from the original price of one card to find the profit:\n\nProfit per card:\n\\[ \\$21 - \\$37 = -\\$16 \\]\n\nSince the result is negative, it means there is a loss of $16 for every card traded.\n\nTherefore, Nicky makes a loss of $16 overall when trading with Jill."
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 188,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 4247,
+    "question": "Patricia is making a highlight film about her basketball team. She recorded video of every player and plans to put it all together in a longer movie. She has 130 seconds of the point guard, 145 seconds of the shooting guard, 85 seconds of the small forward, 60 seconds of the power forward, and 180 seconds of the center. How on average, how many minutes does each player get?",
+    "gold": "2",
+    "gold_solution": "The total movie is 600 seconds long because 130 + 145 + 85 + 60 + 180 = <<130+145+85+60+180=600>>600\nThe total movie is 10 minutes long because 600 / 60 = <<600/60=10>>10\nOn average each player gets 2 minutes because 10 / 5 = <<10/5=2>>2\n#### 2",
+    "prediction": "41.4",
+    "correct": false,
+    "responses": [
+      "To find out how many minutes each player gets on average, we first need to convert the total time spent recording into minutes. There are 60 seconds in a minute, so:\n\n130 seconds / 60 = 2.17 hours (approximately)\n\n145 seconds / 60 = 2.42 hours (approximately)\n\n85 seconds / 60 = 1.42 hours (approximately)\n\n60 seconds / 60 = 1 hour (approximately)\n\n180 seconds / 60 = 3 hours (approximately)\n\nNow, let's add up the total time spent recording:\n\n2.17 + 2.42 + 1.42 + 1 + 3 = 9.01 hours\n\nThere are 13 players on the team, so we divide the total time by the number of players:\n\n9.01 hours / 13 ≈ 0.69 hours per player\n\nSince there are 60 minutes in an hour, we multiply by 60 to convert the minutes to minutes per player:\n\n0.69 * 60 = 41.4 minutes per player\n\nTherefore, on average, each player gets approximately"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 4632,
+    "question": "Julie, Letitia and Anton decided to have dinner together at a nearby restaurant.  Julie orders $10 worth of food, Letitia orders $20 worth of food, and Anton orders $30 worth of food.  How much should each pay in tips if they want to split a 20% tip for the whole meal evenly?",
+    "gold": "4",
+    "gold_solution": "First, we need to determine how much the entire meal costs before we can determine the tip. We perform 10+20+30=<<10+20+30=60>>60 dollars worth of food.\nNow we need to find out how much the total tip to be paid is, by multiplying 60*.2=12 dollars in tips.\nSince they want to split this evenly amongst three people, this works out to 12/3= <<12/3=4>>4 dollars in tips per person.\n#### 4",
+    "prediction": "0.4",
+    "correct": false,
+    "responses": [
+      "To calculate the amount each person should pay in tips, we first need to determine the total cost of the meal before adding the tip. The total cost is the sum of the individual meals:\n\nTotal cost = Cost of Julie's meal + Cost of Letitia's meal + Cost of Anton's meal\nTotal cost = $10 + $20 + $30\nTotal cost = $60\n\nNext, we calculate the tip amount based on the total cost and the percentage given (20%). The formula for calculating the tip is:\n\nTip amount = Total cost * Tip percentage / 100\n\nPlugging in the values:\n\nTip amount = $60 * 20 / 100\nTip amount = $120 / 100\nTip amount = $1.20\n\nNow, we can find out how much each person should contribute towards the tip by dividing the tip amount by the number of people sharing the bill:\n\nAmount per person = Tip amount / Number of people\nAmount per person = $1.20 / 3\nAmount per person = $0.40\n\nTherefore, each person should contribute $0.40 towards the tip."
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 247,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 1727,
+    "question": "Niko has bought 9 pairs of socks that cost $2 each and plans to resell them. He wants to gain 25% profit from four of the pairs of socks and $0.2 profit each for the other 5 pairs of socks. How much will his total profit be?",
+    "gold": "3",
+    "gold_solution": "Niko will earn $2 x 25/100 = $<<2*25/100=0.5>>0.5 profit for each of the first four pairs of socks.\nSo, his total profit for the four pairs of socks will be $0.5 x 4 = $<<0.5*4=2>>2.\nHis total earnings for the 5 pairs of socks is $0.2 x 5 = $<<0.2*5=1>>1.\nTherefore, his total profit will be $2 + $1 = $<<2+1=3>>3.\n#### 3",
+    "prediction": "5",
+    "correct": false,
+    "responses": [
+      "First, let's calculate the total cost of the socks:\n\n- Each pair costs $2, so 9 pairs cost \\(9 \\times 2 = \\$18\\).\n\nNext, we need to determine the profit Niko wants to make from the four pairs he plans to sell:\n\n- He wants a 25% profit on these four pairs. To find the selling price per pair with a 25% profit:\n  \\[\n  \\text{Profit per pair} = 25\\% \\times 2 = 0.25 \\times 2 = \\$0.50\n  \\]\n  Therefore, the selling price per pair is:\n  \\[\n  \\text{Selling price per pair} = 2 + 0.50 = \\$2.50\n  \\]\n\nNow, let's calculate the total revenue from selling these four pairs:\n\\[\n\\text{Total revenue from four pairs} = 4 \\times 2.50 = \\$10.00\n\\]\n\nFor the remaining five pairs, he wants a $0.2 profit per pair. The total profit from these five pairs is:\n\\[\n\\text{Total profit from five pairs} = 5 \\"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 1601,
+    "question": "The number of short students in a class is 2/5 of the total number of students. If there are 90 tall students, and the class has 400 students, calculate the total number of students with average height.",
+    "gold": "150",
+    "gold_solution": "The number of short students in the class is 2/5*400 = <<2/5*400=160>>160\nThe total number of short and tall students is 160+90 = <<160+90=250>>250\nSince there are 400 students in the class, the number of students with average height is 400-250 = <<400-250=150>>150\n#### 150",
+    "prediction": "310",
+    "correct": false,
+    "responses": [
+      "Let \\( S \\) be the total number of students in the class. According to the problem, the number of short students is \\( \\frac{2}{5}S \\). We know that the number of short students is 90, so we can set up the equation:\n\n\\[\n\\frac{2}{5}S = 90\n\\]\n\nTo find \\( S \\), we solve for \\( S \\):\n\n\\[\nS = 90 \\times \\frac{5}{2} = 225\n\\]\n\nNext, we need to determine the number of students with average height. The total number of students is 400, and the number of short students is 90. Therefore, the number of students with average height is:\n\n\\[\n400 - 90 = 310\n\\]\n\nThus, the total number of students with average height is \\(\\boxed{310}\\)."
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 197,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 1948,
+    "question": "Tonya has opened a lemonade stand selling lemonade in small, medium, and large cups at $1, $2 and $3 respectively. At the close of business she ended up making $50.  As she went back through her inventory she noticed that she sold $11 worth of small lemonades and $24 worth of medium lemonades. How many cups of large lemonade did Tonya sell?",
+    "gold": "5",
+    "gold_solution": "1. Tonya sold $11 worth of small lemonades and $24 worth of medium lemonades which makes $11 + $24= $<<11+24=35>>35 for small and medium lemonades.\n2. Tonya made a total of $50. If she made $35 selling the two smaller sizes and she sold three sizes in all then $50-$35= $<<50-35=15>>15 worth of large lemonades.\n3. The large lemonades sold for $3 each and Tonya sold $15 worth of large lemonades which means she sold $15/$3=<<15/3=5>>5 large cups of lemonade.\n#### 5",
+    "prediction": "5.5",
+    "correct": false,
+    "responses": [
+      "Let's denote the number of small lemonades sold as \\( S \\), the number of medium lemonades sold as \\( M \\), and the number of large lemonades sold as \\( L \\).\n\nFrom the information given:\n1. The total revenue from all sales is $50.\n2. The revenue from small lemonades is $11.\n3. The revenue from medium lemonades is $24.\n\nWe can set up the following equations based on this information:\n\n\\[ 1S + 2M + 3L = 50 \\] (Total revenue equation)\n\\[ 11 = 2S \\] (Revenue from small lemonades equation)\n\\[ 24 = 3M \\] (Revenue from medium lemonades equation)\n\nFirst, let's solve for \\( S \\) using the second equation:\n\n\\[ 2S = 11 \\]\n\\[ S = \\frac{11}{2} \\]\n\\[ S = 5.5 \\]\n\nSince the number of cups must be a whole number, we need to check if there might have been a mistake or if the numbers were meant to be rounded. However, since the problem states \"at the close of business,\" it implies rounding down to the nearest whole number"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 3115,
+    "question": "Susie has 572 beans in the jar. One-fourth of them are red and one-third of the remaining beans are white. Then half of the remaining are green beans. How many green beans are there?",
+    "gold": "143",
+    "gold_solution": "Susie has 572 x 1/4 = <<572*1/4=143>>143 red beans.\nThere were 572 - 143 = <<572-143=429>>429 beans that are not red.\nThere are 429 x 1/3 = <<429*1/3=143>>143 white beans.\nSo, there were 429 - 143 = <<429-143=286>>286 beans left.\nTherefore, 286/2 = <<286/2=143>>143 beans are green.\n#### 143",
+    "prediction": "286",
+    "correct": false,
+    "responses": [
+      "First, we calculate the number of red beans:\nRed beans = Total beans / 4 = 572 / 4 = 143\n\nNext, we find out how many beans remain after removing the red ones:\nRemaining beans = Total beans - Red beans = 572 - 143 = 429\n\nThen, we determine how many beans are left after removing the white ones:\nWhite beans = Remaining beans / 3 = 429 / 3 = 143\n\nFinally, we find out how many beans remain after removing the green ones:\nGreen beans = Remaining beans - White beans = 429 - 143 = 286\n\nTherefore, the number of green beans is **286**."
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 162,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 289,
+    "question": "Jim collects model cars, and he has 301 models total.  Jim has 4 times as many Buicks as Fords, and 3 more than twice the number of Fords than Chevys.  How many Buicks does Jim have?",
+    "gold": "220",
+    "gold_solution": "Let x represent the number of Chevys\nFords:3+2x\nBuicks:4(3+2x)=12+8x\nTotal:x+3+2x+12+8x=301\n11x+15=301\n11x=286\nx=<<26=26>>26\nBuicks:12+8(26)=220\n#### 220",
+    "prediction": "2",
+    "correct": false,
+    "responses": [
+      "Let's denote the number of Chevys as \\( C \\). According to the information given:\n\n1. The number of Buicks (\\( B \\)) is 4 times the number of Fords (\\( F \\)), so \\( B = 4F \\).\n2. The number of Buicks is also 3 more than twice the number of Fords, so \\( B = 2C + 3 \\).\n\nWe can use these two equations to find the values of \\( C \\) and \\( B \\):\n\nFrom equation (2): \n\\[ B = 2C + 3 \\]\n\nSubstitute \\( B \\) into equation (1):\n\\[ 4F = 2C + 3 \\]\n\\[ 2C = 4F - 3 \\]\n\\[ C = 2F - \\frac{3}{2} \\]\n\nSince \\( C \\) must be an integer, \\( 2F - \\frac{3}{2} \\) must also be an integer. This implies that \\( 2F \\) must be an odd number because subtracting 3/2 from an even number results in an odd number. Therefore, \\( F \\) must be an odd number.\n\nNow let's find the smallest"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 5468,
+    "question": "Dulce's father has eight orange trees on his farm. If each tree has 200 fruits and Dulce picks 2/5 of the oranges from each tree, calculate the total number of fruits remaining in all the trees.",
+    "gold": "960",
+    "gold_solution": "The total number of oranges in all the trees before Dulce picked any is 8 trees * 200 oranges/tree = <<8*200=1600>>1600 oranges.\nIf each orange tree has 200 oranges, and Dulce picks 2/5 of each tree's oranges, she picks 2/5 * 200 oranges = <<2/5*200=80>>80 oranges.\nSince the total number of orange trees is eight, Dulce picked 8 trees * 80 oranges/tree = <<8*80=640>>640 oranges from all the trees.\nAfter picking 640 oranges from the trees, the total number of oranges remaining became 1600 oranges - 640 oranges = 960 oranges.\n#### 960",
+    "prediction": "1520",
+    "correct": false,
+    "responses": [
+      "Dulce picks \\( \\frac{2}{5} \\) of the oranges from each tree, so she picks \\( \\frac{2}{5} \\times 200 = 80 \\) oranges from each tree.\n\nSince there are 8 trees, the total number of oranges picked by Dulce is \\( 8 \\times 80 = 640 \\).\n\nInitially, there were 8 * 200 = 1600 oranges on all the trees.\n\nAfter Dulce picks 80 oranges from each tree, the total number of oranges left is \\( 1600 - 80 = 1520 \\).\n\nTherefore, the total number of fruits remaining in all the trees is 1520.\n\n#### 1520"
+    ],
+    "marked": [
+      true
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 167,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 1789,
+    "question": "Padma is trading cards with Robert. Padma started with 75 cards and traded 2 or her valuable ones for 10 of Robert's cards. Robert started with 88 of his own cards and traded another 8 of his cards for 15 of Padma's cards. How many cards were traded between both Padma and Robert?",
+    "gold": "35",
+    "gold_solution": "Padma traded 2 + 15 of her cards = <<2+15=17>>17 cards.\nRobert traded 10 + 8 of his cards = <<10+8=18>>18 cards.\nIn total, between both of them Padma and Robert traded 17 + 18 = <<17+18=35>>35 cards.\n#### 35",
+    "prediction": "20",
+    "correct": false,
+    "responses": [
+      "First, let's calculate the number of cards each person traded:\n\nPadma traded:\n- 2 cards (her valuable ones) for 10 cards from Robert.\n\nRobert traded:\n- 8 cards (his own) for 15 cards from Padma.\n\nNow, let's find out how many cards each person had after their trades:\n\nPadma's final cards:\n- 75 original cards - 2 traded cards = 73 cards remaining.\n\nRobert's final cards:\n- 88 original cards - 8 traded cards = 80 cards remaining.\n\nNext, we'll determine the total number of cards traded:\n\nTotal traded cards:\n- 2 from Padma for 10 from Robert = 2 * 10 = 20 cards.\n\nTherefore, the total number of cards traded between Padma and Robert is **20**."
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 178,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 3703,
+    "question": "Jason is planning a parking garage that will have 12 floors. Every 3rd floor has a gate where drivers have to show ID, which takes two minutes. To get from one floor to the next, drivers have to drive 800 feet at 10 feet/second. How long, in seconds, does it take to get to the bottom of the garage from the top?",
+    "gold": "1440",
+    "gold_solution": "First find the total number of gates someone has to pass through: 12 floors / 3 floors/gate = <<12/3=4>>4 gates\nThen find the total time someone spends waiting at the gates: 4 gates * 2 minutes/gate = <<4*2=8>>8 minutes\nThen convert that time to seconds: 8 minutes * 60 seconds/minute = <<8*60=480>>480 seconds\nThen find the time to drive through one floor in seconds: 800 feet / 10 feet/second = <<800/10=80>>80 seconds\nThen multiply the time per floor by the number of floors to find the total driving time: 80 seconds/floor * 12 floors = 960 seconds\nThen add the total driving time to the total time waiting at the gates to find the total time to get to the bottom: 960 seconds + 480 seconds = <<960+480=1440>>1440 seconds\n#### 1440",
+    "prediction": "160",
+    "correct": false,
+    "responses": [
+      "To calculate the time it takes to get from the top to the bottom of the parking garage, we need to consider both the driving time and the waiting time at each gate.\n\nFirst, let's determine the number of gates:\nSince every third floor has a gate, there are \\( \\frac{12}{3} = 4 \\) gates.\n\nNext, let's calculate the total distance driven:\nEach floor has a 800-foot drop, so for 12 floors, the total distance is \\( 12 \\times 800 = 9600 \\) feet.\n\nNow, let's convert this distance into seconds:\nThere are 60 seconds in a minute, so \\( 9600 \\text{ feet} \\div 60 \\text{ seconds/foot} = 160 \\text{ seconds} \\).\n\nEach gate takes 2 minutes (or 120 seconds), so the total waiting time for all gates is \\( 4 \\times 120 \\text{ seconds} = 480 \\text{ seconds} \\).\n\nFinally, add the driving time and the waiting time to find the total time:\n\\( 160 \\text{ seconds} + "
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 4306,
+    "question": "There are 920 deer in a park. 10% of the deer have 8 antlers, and a quarter of that number also have albino fur. How many albino 8-antlered deer are there?",
+    "gold": "23",
+    "gold_solution": "First find how many deer have 8 antlers: 920 deer * 10% = <<920*10*.01=92>>92 deer\nThen divide that number by 4 to find how many deer meet both criteria: 92 deer / 4 = <<92/4=23>>23 deer\n#### 23",
+    "prediction": "8",
+    "correct": false,
+    "responses": [
+      "First, let's find out how many deer have 8 antlers:\n\n10% of 920 deer = 0.10 * 920 = 92 deer with 8 antlers.\n\nNext, we need to find out how many of these 92 deer also have albino fur:\n\nA quarter of those 92 deer with 8 antlers also have albino fur:\n(1/4) * 92 = 23 deer with both 8 antlers and albino fur.\n\nNow, to find out how many deer have both 8 antlers and albino fur, we add the two numbers together:\n\n92 (deer with 8 antlers) + 23 (deer with both 8 antlers and albino fur) = 115 deer.\n\nTherefore, there are 115 albino 8-antlered deer in the park."
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 193,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 6042,
+    "question": "Allison went to the craft store with her friend Marie to buy some glue sticks and construction paper. Allison bought 8 more glue sticks than Marie, but Marie bought six times as many packs of construction paper as Allison. If Marie bought 15 glue sticks and 30 packs of construction paper how many craft supply items did Allison buy all together?",
+    "gold": "28",
+    "gold_solution": "Allison bought 8+15=<<8+15=23>>23 glue sticks\nAllison bought 30/6=<<30/6=5>>5 packs of construction paper.\nAllison bought 23+5= <<23+5=28>>28 craft supply items\n#### 28",
+    "prediction": "105",
+    "correct": false,
+    "responses": [
+      "Let's denote the number of glue sticks Allison bought as \\( A \\) and the number of packs of construction paper she bought as \\( C \\).\n\nFrom the information given:\n1. Marie bought 15 glue sticks (\\( A = 15 \\)).\n2. Marie bought six times as many packs of construction paper as Allison (\\( C = 6A \\)).\n\nWe need to find out how many glue sticks and packs of construction paper Allison bought:\n\n\\[ A = 15 \\]\n\\[ C = 6A = 6 \\times 15 = 90 \\]\n\nNow we know:\n- Allison bought 8 more glue sticks than Marie (\\( A = M + 8 \\)), where \\( M = 15 \\).\n- Marie bought 30 packs of construction paper (\\( C = 30 \\)).\n\nTo find the total number of craft supplies (glue sticks and construction papers):\n\\[ \\text{Total} = A + C \\]\n\nSubstituting the values we have:\n\\[ \\text{Total} = 15 + 90 = 105 \\]\n\nTherefore, Allison bought a total of 105 craft supplies items."
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 248,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 4423,
+    "question": "Monica and Michelle are combining their money to throw a party. Monica brings $15. Michelle brings $12. The cake costs 15 dollars, and soda is $3 a bottle. Each bottle of soda has 12 servings and they buy as many bottles of soda as they can afford. If there are 8 total guests, how many servings of soda does each get?",
+    "gold": "6",
+    "gold_solution": "They have $27 for the party because 15 + 12 = <<15+12=27>>27\nThey have $12 for soda because 27 - 15 = <<27-15=12>>12\nThey can buy 4 bottles of soda because 12 / 3 = <<12/3=4>>4\nThey have 48 servings of soda because 4 x 12 = <<4*12=48>>48\nEach guest gets 6 servings because 48 / 8 = <<48/8=6>>6\n#### 6",
+    "prediction": "48",
+    "correct": false,
+    "responses": [
+      "First, let's calculate the total amount of money Monica and Michelle have together:\n\nMonica's contribution: $15\nMichelle's contribution: $12\n\nTotal contribution: $15 + $12 = $27\n\nNow, we subtract this from the total cost of the cake to find out how much money is left for soda:\n\nCost of cake: $15\nMoney left for soda: $27 - $15 = $12\n\nNext, we need to determine how many bottles of soda they can buy with the remaining money:\n\nEach bottle of soda costs $3:\nNumber of bottles they can buy: $12 / $3 per bottle = 4 bottles\n\nSince they bought 4 bottles of soda, we'll calculate the total number of servings:\n\nBottles of soda: 4\nServings per bottle: 12\nTotal servings: 4 * 12 = 48 servings\n\nTherefore, each guest gets 48 servings of soda."
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 207,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 6851,
+    "question": "Peter is buying a set of glasses. They cost $3 for small glasses and $5 for large ones. He has $50.  If he buys 8 small ones and leaves with $1 in change, how many large ones did he buy?",
+    "gold": "5",
+    "gold_solution": "He spent $49 on glasses because 50-49=<<50-49=1>>1\nHe spent $24 on small glasses because 8x3=<<8*3=24>>24\nHe spent $25 on large glasses because 49-24=<<49-24=25>>25\nHe bought 5 large glasses because 25/5=<<25/5=5>>5\n#### 5",
+    "prediction": "2",
+    "correct": false,
+    "responses": [
+      "Let's denote the number of small glasses Peter bought as \\( x \\) and the number of large glasses as \\( y \\).\n\nFrom the information given:\n1. The cost of one small glass is $3.\n2. The cost of one large glass is $5.\n3. Peter spent $50 in total.\n4. After buying 8 small glasses, he left with $1 in change.\n\nWe can write the equation representing this situation as follows:\n\n\\[ 3x + 5y = 50 \\]\n\nAdditionally, we know that after buying 8 small glasses, he had $1 left in change. This means that the amount he spent on the small glasses plus the change he received equals his initial amount of money minus the change he had left over:\n\n\\[ 3x + 5(8 - x) = 50 - 1 \\]\n\nNow let's solve these equations step-by-step.\n\nFirst, simplify the second equation:\n\n\\[ 3x + 40 - 5x = 49 \\]\n\\[ -2x + 40 = 49 \\]\n\\[ -2x = 9 \\]\n\\[ x = -\\frac{9}{2} \\]\n\nSince \\( x \\) must be"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 3418,
+    "question": "Stella collects stamps. She counted 50 pages in her collector's album. There are 5 rows of 30 stamps in each of the first 10 pages of her album. The rest of the pages each have 50 stamps. How many stamps are in Stella's album?",
+    "gold": "3500",
+    "gold_solution": "There are 30 x 5 = <<30*5=150>>150 stamps on each of the first 10 pages.\nSo she has a total of 150 x 10 = <<150*10=1500>>1500 stamps in the first 10 pages.\nThere are 50 - 10 = <<50-10=40>>40 pages that have 50 stamps each.\nThere is a total of 40 x 50 = <<40*50=2000>>2000 stamps in the remaining 40 pages.\nTherefore, Stella has 2000 + 1500 = <<2000+1500=3500>>3500 stamps in her album.\n#### 3500",
+    "prediction": "1",
+    "correct": false,
+    "responses": [
+      "First, let's calculate the number of stamps on the first 10 pages:\n\n- Each page has 5 rows with 30 stamps per row.\n- Therefore, each page has \\(5 \\times 30 = 150\\) stamps.\n\n- So, the total number of stamps on the first 10 pages is \\(10 \\times 150 = 1500\\).\n\nNext, we need to find out how many stamps are left after accounting for the first 10 pages:\n\n- Total pages in the album: 50\n- Pages already accounted for (first 10): 10\n- Remaining pages: \\(50 - 10 = 40\\)\n\n- Each remaining page has 50 stamps.\n- Therefore, the total number of stamps on the remaining 40 pages is \\(40 \\times 50 = 2000\\).\n\nFinally, we add the stamps from both sets of pages to get the total number of stamps in Stella's album:\n\n- Stamps from the first 10 pages: 1500\n- Stamps from the remaining 40 pages: 2000\n\n- Total stamps: \\(1"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 4977,
+    "question": "A desert garden’s sprinkler system runs twice a day during the cool morning and evening hours. It waters the garden with four liters of water in the morning and six liters in the evening. How many days does it take the sprinkler system to use 50 liters of water?",
+    "gold": "5",
+    "gold_solution": "Every day, the sprinkler uses 4 + 6 = <<4+6=10>>10 liters of water.\nHence, it takes the sprinkler system 50 / 10 = <<50/10=5>>5 days to use 50 liters of water.\n#### 5",
+    "prediction": "50",
+    "correct": false,
+    "responses": [
+      "To determine how many days it takes for the sprinkler system to use 50 liters of water, we first need to calculate the daily usage rate of the sprinkler system. \n\nIn one day:\n- The sprinkler uses 4 liters in the morning.\n- The sprinkler uses 6 liters in the evening.\n- Therefore, the total usage per day is \\(4 + 6 = 10\\) liters.\n\nNext, we need to find out how many days it will take to use exactly 50 liters of water. We can set up the equation:\n\n\\[ \\text{Number of days} \\times \\text{Daily usage per day} = \\text{Total amount of water used} \\]\n\nGiven that the total amount of water used is 50 liters, we solve for the number of days:\n\n\\[ \\text{Number of days} = \\frac{\\text{Total amount of water}}{\\text{Daily usage per day}} = \\frac{50}{10} = 5 \\]\n\nTherefore, it takes the sprinkler system **5** days to use 50 liters of water."
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 232,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 1837,
+    "question": "Mr. Langsley commutes to work every day by bus. The bus picks him up at 6:00 a.m. and takes forty minutes to arrive at the first station. If Mr. Langsley arrives at work at 9:00 a.m., what's the total time taken in minutes from the first station to Mr. Langsley's workplace?",
+    "gold": "140",
+    "gold_solution": "The total time taken for the whole journey is 9:00-6:00 = <<9-6=3>>3 hours.\nThe total time taken in minutes is 3*60 = <<3*60=180>>180 minutes.\nIf it takes 40 minutes to reach the first station, then the rest of the journey takes 180 - 40 = <<180-40=140>>140 minutes.\n#### 140",
+    "prediction": "1",
+    "correct": false,
+    "responses": [
+      "First, let's determine the travel time from the first station to the office. The bus takes 40 minutes to reach the first station and arrives at the office at 9:00 a.m. Therefore, the travel time from the first station to the office is:\n\n\\[ 9:00 \\text{ a.m.} - 40 \\text{ minutes} = 8:20 \\text{ a.m.} \\]\n\nNext, we need to find out the total time taken from the first station to Mr. Langsley's workplace. Since the bus travels for 40 minutes to get to the first station and another 40 minutes to get to the office, the total travel time is:\n\n\\[ 40 \\text{ minutes} + 40 \\text{ minutes} = 80 \\text{ minutes} \\]\n\nTo convert this into hours and minutes, we note that 80 minutes is equivalent to \\( \\frac{80}{60} = \\frac{4}{3} \\) hours, which is approximately 1 hour and 20 minutes.\n\nTherefore, the total time taken from the first station to Mr. Langsley's workplace is:\n\n\\[ \\boxed{1"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 2068,
+    "question": "Janessa has a plan to give her brother Dexter his first collection of baseball cards. She currently has 4 cards in addition to the 13 that her father gave her.  She ordered a collection of 36 cards from eBay. After inspecting the cards she found 4 cards are in bad shape and decides to throw them away. Janessa ended up giving Dexter 29 cards. How many cards did Janessa keep for herself?",
+    "gold": "20",
+    "gold_solution": "Janessa starts with 4 cards + 13 cards = <<4+13=17>>17 cards.\nShe adds 17 cards + 36 cards = <<17+36=53>>53 cards from the eBay purchase.\nJanessa decides to throw away 53 cards - 4 cards = <<53-4=49>>49 cards due to damage.\nAfter giving Dexter the present we know that Janessa kept 49 cards - 29 cards = <<49-29=20>>20 cards for herself.\n#### 20",
+    "prediction": "32",
+    "correct": false,
+    "responses": [
+      "First, let's calculate the total number of cards Janessa initially had:\n\n- Her father gave her 13 cards.\n- She also received 4 cards as a gift.\n- Therefore, the total number of cards she already had is \\(13 + 4 = 17\\).\n\nNext, we need to account for the cards she ordered from eBay:\n\n- She ordered 36 cards.\n\nNow, let's subtract the number of cards she received from the total she originally had:\n\n\\[ \\text{Total cards} - \\text{Cards ordered} = 17 - 36 = -19 \\]\n\nSince this result is negative, it means she actually had 19 fewer cards than what she ordered. This indicates that she threw away some of the cards she received from eBay because they were not good quality or damaged.\n\nJanessa decided to throw away 4 cards (the ones she didn't like) and kept the remaining 32 cards for herself.\n\nTherefore, the number of cards Janessa kept for herself is **32**."
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 218,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 5809,
+    "question": "Daryl is loading crates at a warehouse and wants to make sure that they are not overloaded. Each crate can weigh up to 20kg and he has 15 crates he can fill. He has 4 bags of nails to load, each of which weighs 5kg; he has 12 bags of hammers, each of which weighs 5 kg; he also has 10 bags of wooden planks, each of which weighs 30kg and can be sub-divided. He realizes that he has too much to load and will have to leave some items out of the crates to meet the weight limit. In kg, how much is Daryl going to have to leave out of the crates?",
+    "gold": "80",
+    "gold_solution": "Daryl can load up to 15 crates * 20kg per crate = <<15*20=300>>300kg.\nThe nails weigh a total of 4 bags of nails * 5kg per bag of nails = <<4*5=20>>20kg.\nThe hammers weigh a total of 12 bags of hammers * 5kg per bag of hammers = <<12*5=60>>60kg.\nThe wooden planks weigh a total of 10 bags of wooden planks * 30kg per bag of wooden planks= <<10*30=300>>300kg.\nSo in total, Daryl’s items weigh a total of 20kg nails + 60kg hammers + 300kg wooden planks = <<20+60+300=380>>380kg.\nHe will therefore need to leave out 380kg in items – 300kg weight limit = <<380-300=80>>80kg.\n#### 80",
+    "prediction": "15",
+    "correct": false,
+    "responses": [
+      "First, let's calculate the total weight of all the items Daryl has:\n\n- Nails: \\(4 \\text{ bags} \\times 5 \\text{ kg/bag} = 20 \\text{ kg}\\)\n- Hammers: \\(12 \\text{ bags} \\times 5 \\text{ kg/bag} = 60 \\text{ kg}\\)\n- Wooden planks: \\(10 \\text{ bags} \\times 30 \\text{ kg/bag} = 300 \\text{ kg}\\)\n\nNow, let's add these weights together:\n\\[20 \\text{ kg (nails)} + 60 \\text{ kg (hammers)} + 300 \\text{ kg (wooden planks)} = 380 \\text{ kg}\\]\n\nSince each crate can hold up to 20kg, we need to determine how many full crates Daryl can load with his available items:\n\n- Total weight: 380 kg\n- Weight per crate: 20 kg\n- Number of crates: \\(380 \\div 20 = 19\\) crates\n\nDaryl has 15 crates already filled, so"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 5517,
+    "question": "Kwame studied for the history test for 2.5 hours. Connor studied for 1.5 hours and Lexia studied for 97 minutes. How many minutes more did Kwame and Connor study than Lexia?",
+    "gold": "143",
+    "gold_solution": "Kwame = 2.5 hours * 60 minutes = <<2.5*60=150>>150 minutes\nConnor = 1.5 hours * 60 minutes = <<1.5*60=90>>90 minutes\nKwame + Connor = 150 + 90 = 240 minutes\n240 - 97 = <<240-97=143>>143 minutes\nKwame and Conner studied 143 minutes more than Lexia.\n#### 143",
+    "prediction": "47",
+    "correct": false,
+    "responses": [
+      "To find out how many more minutes Kwame and Connor studied compared to Lexia, we need to convert all their study times into minutes and then perform the subtraction.\n\nFirst, let's convert Kwame's study time:\nKwame studied for 2.5 hours. Since there are 60 minutes in an hour, we can calculate his study time as follows:\n\\[ 2.5 \\text{ hours} \\times 60 \\text{ minutes/hour} = 150 \\text{ minutes} \\]\n\nNext, let's convert Connor's study time:\nConnor studied for 1.5 hours. Similarly, we can calculate his study time:\n\\[ 1.5 \\text{ hours} \\times 60 \\text{ minutes/hour} = 90 \\text{ minutes} \\]\n\nNow, let's convert Lexia's study time:\nLexia studied for 97 minutes. To make this easier to work with, we'll convert 97 minutes into minutes and hours. There are 60 minutes in an hour, so:\n\\[ 97 \\text{ minutes} = 1 \\text{ hour and } 47 \\text{ minutes} \\]\nSince we want to know how"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 623,
+    "question": "Abigail is trying a new recipe for a cold drink. It uses 1/4 of a cup of iced tea and 1 and 1/4 of a cup of lemonade to make one drink. If she fills a pitcher with 18 total cups of this drink, how many cups of lemonade are in the pitcher?",
+    "gold": "15",
+    "gold_solution": "Each drink uses 1.5 cups because 1/4 cup + 1 and 1/4 cup = <<1.5=1.5>>1.5 cups\nThe pitcher contains 12 total drinks because 18 / 1.5 = <<18/1.5=12>>12\nThere are 15 cups of lemonade in the pitcher because 12 x 1 and 1/4 = 15\n#### 15",
+    "prediction": "2",
+    "correct": false,
+    "responses": [
+      "First, let's determine the total amount of liquid used for one drink:\n\n- Iced tea: \\( \\frac{1}{4} \\) cup\n- Lemonade: \\( 1 \\frac{1}{4} \\) cups (which can be written as \\( \\frac{5}{4} \\) cups)\n\nAdding these together gives:\n\\[ \\frac{1}{4} + \\frac{5}{4} = \\frac{6}{4} = \\frac{3}{2} \\text{ cups} \\]\n\nAbigail filled a pitcher with 18 total cups of this drink. To find out how many cups of lemonade are in the pitcher, we need to subtract the amount of iced tea from the total:\n\n\\[ 18 - \\frac{3}{2} = \\frac{36}{2} - \\frac{3}{2} = \\frac{33}{2} \\text{ cups} \\]\n\nConverting this fraction to a mixed number:\n\n\\[ \\frac{33}{2} = 16 \\frac{1}{2} \\text{ cups} \\]\n\nTherefore, there are 16 and 1/2 cups of lemonade in the pitcher."
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 4943,
+    "question": "Juan needs 10 half-gallons of milk to bake 40 cookies with. How many half-gallons of milk does Juan need to bake 200 dozen cookies?",
+    "gold": "50",
+    "gold_solution": "If 10 half-gallons of milk bake 40 cookies, then one half-gallon of milk bakes 40/10 = 4 cookies.\nIf one half-gallon of milk bakes 4 cookies. to bake 200 cookies, you'll need 200/4 = <<200/4=50>>50 half-gallons of milk\n#### 50",
+    "prediction": "600",
+    "correct": false,
+    "responses": [
+      "First, let's determine how much milk Juan uses per cookie. Since he needs 10 half-gallons of milk to bake 40 cookies, we can calculate this as follows:\n\n\\[ \\text{Milk per cookie} = \\frac{10 \\text{ half-gallons}}{40 \\text{ cookies}} = \\frac{1}{4} \\text{ half-gallon per cookie} \\]\n\nNext, we need to find out how much milk Juan would use to bake 200 dozen cookies. Since there are 12 cookies in a dozen, 200 dozen cookies is equal to \\(200 \\times 12\\) cookies. Now, using the amount of milk needed per cookie, we can calculate the total milk required:\n\n\\[ \\text{Total milk} = 200 \\times 12 \\times \\frac{1}{4} \\text{ half-gallons per cookie} \\]\n\nLet's perform the calculation:\n\n\\[ \\text{Total milk} = 200 \\times 12 \\times \\frac{1}{4} = 200 \\times 3 = 600 \\text{ half-gallons} \\]\n\n"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 2126,
+    "question": "Adam teaches 50 students a year. How many students will Adam teach in 10 years if in the first year he only teaches 40 students?",
+    "gold": "490",
+    "gold_solution": "Adam will teach 50 * 9 = <<50*9=450>>450 students in 9 years.\nSo, in 10 year Adam will teach 450 + 40 = <<450+40=490>>490 students.\n#### 490",
+    "prediction": "76",
+    "correct": false,
+    "responses": [
+      "To find out how many students Adam will teach in 10 years, we need to calculate the number of students he teaches each year and then multiply by the number of years.\n\nFirst, let's determine the number of students Adam taught in the first year:\n\\[ \\text{Number of students in the first year} = 40 \\]\n\nNext, we'll calculate the number of students he teaches in subsequent years. Since there are 10 years in total:\n\n\\[\n\\text{Number of students in the second year} = 40 + (10 - 1) = 40 + 9 = 49\n\\]\n\\[\n\\text{Number of students in the third year} = 49 + (10 - 1) = 49 + 9 = 58\n\\]\n\\[\n\\text{Number of students in the fourth year} = 58 + (10 - 1) = 58 + 9 = 67\n\\]\n\\[\n\\text{Number of students in the fifth year} = 67 + (10 - 1) = 67 + 9 = 76\n\\]\n\\[\n\\text{"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 1890,
+    "question": "Jane, Kyla, and Anthony have summer jobs in a resort. Their task is to fold guests' towels. Jane can fold 3 towels in 5 minutes. Kyla can fold 5 towels in 10 minutes, and Anthony can fold 7 towels in 20 minutes. If they all fold towels together, how many towels can they fold in one hour?",
+    "gold": "87",
+    "gold_solution": "There are 1 x 60 minutes = <<1*60=60>>60 minutes in 1 hour.\nThere are 60/5 = <<60/5=12>>12 sets of 5 minutes in 1 hour.\nSo, Jane can fold 3 x 12 = <<3*12=36>>36 towels in an hour.\nThere are 60/10 = <<60/10=6>>6 sets of 10 minutes in 1 hour.\nSo, Kyla can fold 5 x 6 = <<5*6=30>>30 towels in an hour.\nThere are 60/20 = <<60/20=3>>3 sets of 20 minutes in 1 hour.\nSo, Anthony can fold 7 x 3 = <<7*3=21>>21 towels in an hour.\nTherefore, the 3 of them can fold a total of 36 + 30 + 21 = <<36+30+21=87>>87 towels in 1 hour.\n#### 87",
+    "prediction": "10",
+    "correct": false,
+    "responses": [
+      "First, let's calculate how many towels each person can fold per minute:\n\nJane folds 3 towels in 5 minutes, so she folds \\( \\frac{3}{5} \\) towels per minute.\nKyla folds 5 towels in 10 minutes, so she folds \\( \\frac{5}{10} \\) towels per minute.\nAnthony folds 7 towels in 20 minutes, so he folds \\( \\frac{7}{20} \\) towels per minute.\n\nNow, let's add up their folding rates to find out how many towels they can fold together per minute:\n\\[ \\text{Towels per minute} = \\frac{3}{5} + \\frac{5}{10} + \\frac{7}{20} \\]\n\nTo add these fractions, we need a common denominator. The least common multiple (LCM) of 5, 10, and 20 is 20. So we convert each fraction to have a denominator of 20:\n\n\\[ \\frac{3}{5} = \\frac{3 \\times 4}{5 \\times 4} = \\frac{12}{20} \\]\n\\[ \\frac{5}{10} ="
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 2691,
+    "question": "Carla, Kyle, and Tasha caught 36 fish. If Kyle and Tasha caught the same number of fish and Carla caught 8, how many fish did Kyle catch?",
+    "gold": "14",
+    "gold_solution": "Kyle and Tasha caught 36 - 8 = <<36-8=28>>28 fish\nKyle caught 28/2 = <<28/2=14>>14 fish\n#### 14",
+    "prediction": "28",
+    "correct": false,
+    "responses": [
+      "Let's denote the number of fish each person caught as follows:\n- Let \\( C \\) be the number of fish Carla caught.\n- Since Kyle and Tasha caught the same number of fish, let \\( K \\) be the number of fish Kyle caught.\n- And since Carla caught 8 fish, we have \\( C = 8 \\).\n\nGiven that the total number of fish caught by all three is 36, we can write the equation:\n\\[ C + K + T = 36 \\]\n\nSubstituting the known values into the equation:\n\\[ 8 + K + T = 36 \\]\n\nTo find the value of \\( K \\), we need to isolate \\( K \\):\n\\[ K + T = 36 - 8 \\]\n\\[ K + T = 28 \\]\n\nSince \\( K \\) and \\( T \\) represent the number of fish Kyle and Tasha caught respectively, and they must be integers (as you cannot catch half a fish), we need to determine if there are integer solutions for \\( K \\) and \\( T \\). \n\nWe know that \\( K \\) and \\( T \\) must be positive integers because they represent the number of fish caught by Kyle and Tasha. The smallest"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 5196,
+    "question": "Mark is reading books, for 2 hours each day. He decided to increase his time spent on reading books weekly, by 4 hours. How much time does Mark want to spend during one week on reading books?",
+    "gold": "18",
+    "gold_solution": "Currently, Mark is reading books for 2 * 7 = <<2*7=14>>14 hours weekly.\nHis goal is to read books, for 14 + 4 = <<14+4=18>>18 hours during one week.\n#### 18",
+    "prediction": "42",
+    "correct": false,
+    "responses": [
+      "Mark currently reads for 2 hours each day, so he spends $2 \\times 7 = 14$ hours per week reading books.\n\nHe decides to increase his reading time by 4 hours each week. Therefore, the additional time he wants to spend reading books each week is $4 \\times 7 = 28$ hours.\n\nAdding this to his current reading time gives him a total of $14 + 28 = 42$ hours per week.\n\n#### 42"
+    ],
+    "marked": [
+      true
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 104,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 1938,
+    "question": "Alicia has to buy some books for the new school year. She buys 2 math books, 3 art books, and 6 science books, for a total of $30. If both the math and science books cost $3 each, what was the cost of each art book?",
+    "gold": "2",
+    "gold_solution": "The total cost of maths books is 2*3 = <<2*3=6>>6 dollars\nThe total cost of science books is 6*3 = <<6*3=18>>18 dollars\nThe total cost for maths and science books is 6+18 = <<6+18=24>>24 dollars\nThe cost for art books is 30-24 = <<30-24=6>>6 dollars.\nSince he bought 3 art books, the cost for each art book will be 6/3 = 2 dollars\n#### 2",
+    "prediction": "10",
+    "correct": false,
+    "responses": [
+      "Let's denote the cost of one math book as \\( M \\), one science book as \\( S \\), and one art book as \\( A \\).\n\nFrom the information given:\n1. Alicia bought 2 math books, so the total cost for math books is \\( 2M \\).\n2. Alicia bought 3 art books, so the total cost for art books is \\( 3A \\).\n3. Alicia bought 6 science books, so the total cost for science books is \\( 6S \\).\n4. The total amount spent is $30, which includes the costs of all three types of books.\n\nWe can write this as an equation:\n\n\\[ 2M + 3A + 6S = 30 \\]\n\nAdditionally, we know that both the math and science books cost $3 each. Therefore, we have another equation:\n\n\\[ 3M + 3S = 30 \\]\n\nFirst, let's simplify the second equation by dividing everything by 3:\n\n\\[ M + S = 10 \\]\n\nNow we have two equations with two unknowns:\n\n1. \\( 2M + 3A + 6S = 30 \\)\n2. \\( M + S = 10 \\"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 5111,
+    "question": "Three siblings are born 5 years apart, each. If the eldest child is 20 years old now, what's the total of the ages of the three siblings 10 years from now?",
+    "gold": "75",
+    "gold_solution": "Ten years from now, the elder child will be 20+10 = <<10+20=30>>30 years old.\nIf the elder child is 20 years old now, the second born is 20-5 = <<20-5=15>>15 years old, 5 years younger than the firstborn.\nThe second-born will be 15+10 = 25 years old ten years from now.\nThe total age of the first and second-born 10 years from now will be 25+30 = <<25+30=55>>55\nThe third-born who is five years younger than the second born is 15-5 = <<15-5=10>>10 years old.\nThe third sibling's age ten years from now will be 10+10 = <<10+10=20>>20 years old.\nThe total age of the three siblings ten years from now will be 55+20 = <<55+20=75>>75 years.\n#### 75",
+    "prediction": "10",
+    "correct": false,
+    "responses": [
+      "Let's denote the current age of the eldest sibling as \\( E \\), the middle sibling as \\( M \\), and the youngest sibling as \\( Y \\). According to the information given:\n\n1. The eldest sibling is currently 20 years old (\\( E = 20 \\)).\n2. Each sibling is 5 years older than the previous one:\n   - Middle sibling: \\( M = E + 5 = 20 + 5 = 25 \\)\n   - Youngest sibling: \\( Y = M + 5 = 25 + 5 = 30 \\)\n\nNow, we need to find their total age 10 years from now:\n\n- The eldest sibling will be \\( 20 + 10 = 30 \\) years old.\n- The middle sibling will be \\( 25 + 10 = 35 \\) years old.\n- The youngest sibling will be \\( 30 + 10 = 40 \\) years old.\n\nTo calculate the total age of all three siblings 10 years from now:\n\n\\[ \\text{Total age} = (E + M + Y) + (E + M + Y) + (E + M + Y)"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 6012,
+    "question": "A mother planted a 16-inch tree on her son's first birthday.  On the day the tree was planted, the boy was 24 inches tall.  If the tree grows twice as fast as the boy does, how tall will the tree be by the time the boy is 36 inches tall?",
+    "gold": "40",
+    "gold_solution": "The boy grew 36 - 24 = <<36-24=12>>12 inches since the tree was planted.\nSince the tree grows twice as fast as the boy, it will have grown 12*2 = <<12*2=24>>24 inches during this time period.\nThus, the final height of the tree is 16 + 24 = <<16+24=40>>40 inches.\n#### 40",
+    "prediction": "-748",
+    "correct": false,
+    "responses": [
+      "To determine how tall the tree will be when the boy is 36 inches tall, we need to follow these steps:\n\n1. **Determine the growth rate of the tree**: Since the tree grows twice as fast as the boy, if the boy is 24 inches tall, the tree will grow \\(2 \\times 24 = 48\\) inches taller each year.\n\n2. **Calculate the height difference between the boy and the tree after 16 years**: The boy's current height is 24 inches, so after 16 years, he will have grown \\(48 \\times 16 = 768\\) inches. Therefore, the tree will be \\(768 + 16 = 784\\) inches tall.\n\n3. **Determine the remaining height difference needed for the boy to reach 36 inches**: After 16 years, the tree has grown to 784 inches. To find out how much more the tree needs to grow to reach 36 inches, we subtract the tree's current height from 36 inches: \\(36 - 784 = -748\\). This negative value indicates that the tree has already exceeded its goal by "
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 1481,
+    "question": "Mike watches TV for 4 hours every day.  On the days he plays video games he plays for half as long as he watches TV.  If he plays video games 3 days a week how long does he spend watching TV and playing video games?",
+    "gold": "34",
+    "gold_solution": "He plays video games for 4/2=<<4/2=2>>2 hours a day\nHe watches TV for 4*7=<<4*7=28>>28 hours a week\nHe plays video games for 3*2=<<3*2=6>>6 hours\nSo in total he spends 6+28=<<6+28=34>>34 hours on those activities\n#### 34",
+    "prediction": "6",
+    "correct": false,
+    "responses": [
+      "First, let's determine how much time Mike spends playing video games each day. Since he plays video games for half as long as he watches TV, we can calculate this as follows:\n\n\\[ \\text{Time spent playing video games per day} = \\frac{\\text{Time spent watching TV}}{2} = \\frac{4\\ \\text{hours}}{2} = 2\\ \\text{hours} \\]\n\nNext, since he plays video games 3 days a week, we multiply his daily video game playtime by 3 to find out how much time he spends playing video games weekly:\n\n\\[ \\text{Total weekly video game time} = \\text{Daily video game time} \\times 3 = 2\\ \\text{hours/day} \\times 3\\ \\text{days/week} = 6\\ \\text{hours/week} \\]\n\nFinally, to find out how much time Mike spends watching TV and playing video games together each week, we add his daily TV watching time and his weekly video game time:\n\n\\[ \\text{Weekly total time} = \\text{Daily TV watching time} + \\text{Weekly video game time} = 4\\ \\text{hours/day} + 6"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 4782,
+    "question": "Henry had some games, and he gave six of them to Neil. Now, Henry has 4 times more games than Neil. If Neil had 7 games at first, how many games did Henry have at first?",
+    "gold": "58",
+    "gold_solution": "After getting six games from Henry, Neil has 6+7=<<6+7=13>>13 games.\nNow, Henry has 13*4=<<13*4=52>>52 games.\nHenry had 52+6=<<52+6=58>>58 games at first.\n#### 58",
+    "prediction": "34",
+    "correct": false,
+    "responses": [
+      "Let's denote the initial number of games Henry had as \\( H \\) and the initial number of games Neil had as \\( N \\). According to the problem:\n\n1. Henry gives 6 games to Neil, so now Henry has \\( H - 6 \\) games.\n2. The problem states that after giving away 6 games, Henry has 4 times more games than Neil. This can be expressed with the equation:\n   \\[\n   H - 6 = 4N\n   \\]\n3. We also know that Neil initially had 7 games, so \\( N = 7 \\).\n\nNow we substitute \\( N = 7 \\) into the equation:\n\\[\nH - 6 = 4 \\times 7\n\\]\n\\[\nH - 6 = 28\n\\]\nAdding 6 to both sides of the equation gives us:\n\\[\nH = 34\n\\]\n\nTherefore, Henry had 34 games at first."
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 201,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 5589,
+    "question": "Michael saved 5 of his cookies to give Sarah, who saved a third of her 9 cupcakes to give to Michael. How many desserts does Sarah end up with?",
+    "gold": "11",
+    "gold_solution": "Sarah saved 1/3 of her 9 cupcakes to give Michael, so she has 2/3 x 9 = <<2/3*9=6>>6 cupcakes left.\nMichael saves 5 of his cookies for Sarah, which she adds to her 6 cupcakes. Sarah has 5 + 6 = <<5+6=11>>11 desserts.\n#### 11",
+    "prediction": "16",
+    "correct": false,
+    "responses": [
+      "Sarah initially has 9 cupcakes. She saves a third of them to give to Michael, which means she gives him \\( \\frac{9}{3} = 3 \\) cupcakes. After giving away these cupcakes, Sarah has \\( 9 - 3 = 6 \\) cupcakes left.\n\nMichael also has 5 cookies to give to Sarah. So, after receiving the cookies from Sarah, Michael ends up with \\( 5 + 5 = 10 \\) cookies.\n\nTherefore, the total number of desserts (cookies and cupcakes) that Sarah ends up with is \\( 6 + 10 = 16 \\).\n\n#### 16"
+    ],
+    "marked": [
+      true
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 134,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 7123,
+    "question": "Harrison Elementary School is overcrowded with 1590 students, so 40% of the students are going to move to a new school. There are 3 grade levels, and each grade level needs one 20-person advanced class and the rest of the students divided evenly into 6 additional classes. How many students will there be in each normal class at the new school?",
+    "gold": "32",
+    "gold_solution": "First find how many students go to the new school: 1590 students * .4 = <<1590*.4=636>>636 students\nThen divide that number by 3 to find how many students are at each grade level: 636 students / 3 grades = <<636/3=212>>212 students/grade\nThen subtract the 20 students in the gifted class: 212 students - 20 students = <<212-20=192>>192 students\nThen divide that number by 6 to find the number of students in each other class: 192 students / 6 classes = <<192/6=32>>32 students/class\n#### 32",
+    "prediction": "16",
+    "correct": false,
+    "responses": [
+      "First, let's calculate the number of students moving to the new school:\n\n\\[ \\text{Number of students moving} = 1590 \\times 0.40 = 636 \\]\n\nNext, we need to determine how many students are left after these moves:\n\n\\[ \\text{Remaining students} = 1590 - 636 = 954 \\]\n\nNow, we know that there are three grade levels, and each grade level has one 20-person advanced class. So, the total number of advanced classes needed is:\n\n\\[ \\text{Total advanced classes} = 3 \\times 20 = 60 \\]\n\nSince the remaining students are divided evenly into 6 additional classes, the number of students per class remains constant:\n\n\\[ \\text{Students per class} = \\frac{954}{60} = 15.9 \\]\n\nTherefore, there will be 15.9 students in each normal class at the new school. Since the number of students must be a whole number, we can conclude that there will be 16 students in each normal class."
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 238,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 1120,
+    "question": "A printing press is printing brochures. The press prints 20 single-page spreads, and twice as many double-page spreads. For each 4 pages printed for the spreads, the press prints a block of 4 ads, each of which take up a quarter of a page. The brochures can be arranged in any order as long as they are made up of 5 pages each. How many brochures is the printing press creating?",
+    "gold": "25",
+    "gold_solution": "There are a total of 20 single-page spreads * 2 = <<20*2=40>>40 double-page spreads.\nAs these are made up of 2 pages each, there are 40 double-page spreads * 2 pages = <<40*2=80>>80 pages in the double-page spreads.\nIn total, there are 20 single-pages + 80 double-pages = <<20+80=100>>100 pages in the spreads.\nA block of ads is printed every 4 pages, so there will be 100 pages / 4 pages/block = <<100/4=25>>25 blocks of ads.\nThis is a total of 25 blocks * 4 ads = <<25*4=100>>100 ads.\nAs each ad takes up a quarter of a page, this must create an additional 100 ads * 0.25 = <<100*0.25=25>>25 pages.\nTherefore, the press has printed 100 pages from the spreads + 25 pages of ads = <<100+25=125>>125 pages.\nSince brochures are made up of 5 pages each, this creates a total of 125 pages / 5 = <<125/5=25>>25 brochures.\n#### 25",
+    "prediction": "5",
+    "correct": false,
+    "responses": [
+      "First, let's determine the number of double-page spreads printed:\n\n- The press prints 20 single-page spreads.\n- It also prints twice as many double-page spreads as single-page spreads:\n  \\[\n  2 \\times 20 = 40 \\text{ double-page spreads}\n  \\]\n\nNext, we calculate the total number of pages printed for both single-page and double-page spreads:\n\n- Single-page spreads: \\(20\\) pages\n- Double-page spreads: \\(40\\) pages\n\nTotal pages for single-page and double-page spreads:\n\\[\n20 + 40 = 60 \\text{ pages}\n\\]\n\nNow, we need to find out how many blocks of 4 pages are printed for these 60 pages:\n\n- Each block contains 4 pages.\n- Total pages: \\(60\\)\n\nNumber of blocks:\n\\[\n\\frac{60}{4} = 15 \\text{ blocks}\n\\]\n\nSince each brochure consists of 5 pages, we calculate the number of brochures:\n\n- Number of brochures per block: \\(5\\)\n- Number of blocks: \\(15\\)\n\nTotal number of brochures:\n\\[\n15 \\times 5 ="
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 146,
+    "question": "Richard can clean his room in 22 minutes. Cory takes 3 minutes more than Richard to clean her room while Blake can clean his room 4 minutes more quickly than Cory. If they have to clean their rooms twice a week, how many minutes do all three spend cleaning their rooms each week?",
+    "gold": "136",
+    "gold_solution": "Cory takes 22 + 3 = <<22+3=25>>25 minutes to clean her room.\nBlake takes 25 - 4 = <<25-4=21>>21 minutes to clean his room.\nThe three of them can clean their room in 22 + 25 + 21 = <<22+25+21=68>>68 minutes in all.\nIn a week, they spend 68 x 2 = <<68*2=136>>136 minutes cleaning their rooms.\n#### 136",
+    "prediction": "21",
+    "correct": false,
+    "responses": [
+      "First, let's determine how long it takes each person to clean their room:\n\n1. **Richard**: He can clean his room in 22 minutes.\n2. **Cory**: Cory takes 3 minutes more than Richard, so:\n   \\[\n   \\text{Time for Cory} = 22 + 3 = 25 \\text{ minutes}\n   \\]\n3. **Blake**: Blake can clean his room 4 minutes quicker than Cory, so:\n   \\[\n   \\text{Time for Blake} = 25 - 4 = 21 \\text{ minutes}\n   \\]\n\nNext, we calculate the total time spent cleaning their rooms per week:\n\n1. **Richard**: \n   \\[\n   \\text{Total time for Richard} = 22 \\text{ minutes}\n   \\]\n\n2. **Cory**: \n   \\[\n   \\text{Total time for Cory} = 25 \\text{ minutes}\n   \\]\n\n3. **Blake**: \n   \\[\n   \\text{Total time for Blake} = 21 \\text{ minutes}\n   \\]\n\nNow, sum up the times for all three:\n\n\\[\n\\text{Total time for all three} = "
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 2397,
+    "question": "Nathan plays amateur baseball. He played for 3 hours for two weeks, every day. His friend Tobias played for 5 hours every day, but only for one week. How many hours did Nathan and Tobias play in total?",
+    "gold": "77",
+    "gold_solution": "Two weeks are 14 days, so Nathan played for 3 * 14 = <<14*3=42>>42 hours.\nTobias played for 7 days, so he played a total of 5 * 7 = <<5*7=35>>35 hours.\nNathan and Tobias played together for 42 + 35 = <<42+35=77>>77 hours.\n#### 77",
+    "prediction": "56",
+    "correct": false,
+    "responses": [
+      "Nathan played for a total of 3 * 7 = 21 hours.\nTobias played for a total of 5 * 7 = 35 hours.\nTherefore, Nathan and Tobias together played for 21 + 35 = 56 hours.\n\n#### 56"
+    ],
+    "marked": [
+      true
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 63,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 5182,
+    "question": "While at Wizards Park, Kate buys 3 magic wands, one for herself and two for her friends. When she returns she sells the wands to her friends for $5 more than she paid. If she collected $130 after the sale, how much money did each wand cost?",
+    "gold": "60",
+    "gold_solution": "Out of 3 wands purchased, Kate sold her friends 3 wands - 1 wand = <<3-1=2>>2 wands.\nFor 2 wands she charged $130, so for 1 wand she charged $130 / 2 wands = $<<130/2=65>>65/wand.\nSince she charged $5 more for each wand than she paid, Kate paid $65 - $5 = $<<65-5=60>>60 for each wand.\n#### 60",
+    "prediction": "24",
+    "correct": false,
+    "responses": [
+      "Let's denote the price Kate paid for each wand as \\( x \\) dollars. Therefore, the total amount Kate spent on the three wands is \\( 3x \\).\n\nWhen she sold the wands to her friends, she received \\( x + 5 \\) dollars per wand (since she sold them for $5 more than she paid). Since she sold two wands, the total amount she received is \\( 2(x + 5) \\).\n\nAccording to the problem, the total amount she collected after selling the wands is $130. So we can set up the equation:\n\\[ 3x + 2(x + 5) = 130 \\]\n\nNow let's solve this equation step-by-step:\n\n1. Distribute the 2 inside the parentheses:\n\\[ 3x + 2x + 10 = 130 \\]\n\n2. Combine like terms:\n\\[ 5x + 10 = 130 \\]\n\n3. Subtract 10 from both sides:\n\\[ 5x = 120 \\]\n\n4. Divide both sides by 5:\n\\[ x = 24 \\]\n\nSo, the price Kate paid for each wand is $24.\n\nTo"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 39,
+    "question": "Anna goes trick-or-treating in a subdivision where she gets 14 pieces of candy per house. Her brother Billy goes trick-or-tricking in a neighboring subdivision where he gets 11 pieces of candy per house. If the first subdivision has 60 houses and the second subdivision has 75 houses, how many more pieces of candy does Anna get?",
+    "gold": "15",
+    "gold_solution": "First find the total number of pieces of candy Anna gets: 14 pieces/house * 60 houses = 840 pieces\nThen find the total number of pieces of candy Billy gets: 11 pieces/house * 75 houses = <<11*75=825>>825 pieces\nThen subtract the number of pieces Billy gets from the number Anna gets to find the difference: 840 pieces - 825 pieces = <<840-825=15>>15 pieces\n#### 15",
+    "prediction": "840",
+    "correct": false,
+    "responses": [
+      "First, let's calculate the total number of candies each person gets:\n\nFor Anna:\n\\[ \\text{Total candies} = 14 \\times 60 \\]\n\nFor Billy:\n\\[ \\text{Total candies} = 11 \\times 75 \\]\n\nNow, we'll find out how much more candies Anna gets compared to Billy:\n\n\\[ \\text{Difference} = (\\text{Anna's total candies}) - (\\text{Billy's total candies}) \\]\n\nLet's perform these calculations now.\n```python\n# Calculating the total candies each person gets\ncandies_per_house_anna = 14\nhouses_anna = 60\ncandies_per_house_billy = 11\nhouses_billy = 75\n\ntotal_candies_anna = candies_per_house_anna * houses_anna\ntotal_candies_billy = candies_per_house_billy * houses_billy\n\n# Finding the difference\ndifference = total_candies_anna - total_candies_billy\ndifference\n```\n```output\nDone\n```\nPerforming the calculations again:\n\nFor Anna:\n\\[ \\text{Total candies} = 14 \\times 60 = 840 \\]\n"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 2008,
+    "question": "25% of oysters have pearls in them. Jamie can collect 16 oysters during each dive. How many dives does he have to make to collect 56 pearls?",
+    "gold": "14",
+    "gold_solution": "First find how many pearls Jamie collects per dive by multiplying the number of oysters by the chance each oyster has a pearl: .25 pearls/oyster * 16 oysters/dive = 4 pearls/dive\nThen divide the number of pearls he wants by the number of pearls per dive to find the number of dives: 56 pearls / 4 pearls/dive = <<56/4=14>>14 pearls/dive\n#### 14",
+    "prediction": "56",
+    "correct": false,
+    "responses": [
+      "First, let's determine how many pearls Jamie collects per dive:\n\n\\[ \\text{Number of pearls per dive} = 25\\% \\times 16 = 0.25 \\times 16 = 4 \\]\n\nNext, we need to find out how many dives Jamie needs to make to collect 56 pearls:\n\n\\[ \\text{Number of dives needed} = \\frac{\\text{Total pearls}}{\\text{Pearls per dive}} = \\frac{56}{4} = 14 \\]\n\nTherefore, Jamie has to make 14 dives to collect 56 pearls."
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 130,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 3320,
+    "question": "Pauline has a garden with vegetables. In it, Pauline has planted 3 kinds of tomatoes - 5 of each kind, 5 kinds of cucumbers - 4 of each kind, and 30 potatoes. In the whole garden, there are 10 rows with 15 spaces in each to plant any vegetable. How many more vegetables could Pauline plant in her garden?",
+    "gold": "85",
+    "gold_solution": "Pauline planted in total 3 * 5 = <<3*5=15>>15 tomatoes.\nPauline also planted 5 * 4 = <<5*4=20>>20 cucumbers.\nIn total Pauline planted 15 + 20 + 30 = <<15+20+30=65>>65 different vegetables.\nThe whole garden can be filled up with 10 * 15 = <<10*15=150>>150 different vegetables.\nSo Pauline could plant 150 - 65 = <<150-65=85>>85 more vegetables in her garden.\n#### 85",
+    "prediction": "20",
+    "correct": false,
+    "responses": [
+      "To determine how many more vegetables Pauline can plant in her garden, we need to calculate the total number of plants she currently has and compare it to the maximum possible number of plants she can grow given the constraints.\n\nFirst, let's calculate the total number of plants Pauline currently has:\n\n1. **Tomatoes**:\n   - Number of types of tomatoes: 3\n   - Number of each type: 5\n   - Total number of tomato plants: \\(3 \\times 5 = 15\\)\n\n2. **Cucumbers**:\n   - Number of types of cucumbers: 5\n   - Number of each type: 4\n   - Total number of cucumber plants: \\(5 \\times 4 = 20\\)\n\n3. **Potatoes**:\n   - Number of potato rows: 10\n   - Number of potato columns per row: 15\n   - Total number of potato plants: \\(10 \\times 15 = 150\\)\n\nNow, let's sum up all the plants to find out how many Pauline has already planted:\n\n\\[ \\text{Total plants} = 15 (\\text{tomatoes}) + 20 (\\text{"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 3084,
+    "question": "Susan is picking strawberries. She's trying to fill her basket, but out of every handful of 5 strawberries she can't help but eat one of them herself. If her basket holds 60 strawberries, how many berries will she actually pick before she fills it?",
+    "gold": "75",
+    "gold_solution": "Out of every 5 berries, she eats 1, so only 5 strawberries - 1 strawberry = <<5-1=4>>4 strawberries go into the basket for each handful.\nThe basket holds 60 strawberries, so it will take 60 strawberries / 4 strawberries per handful = <<60/4=15>>15 handfuls to fill the basket.\nSo in total, Susan will pick 60 strawberries + 15 handfuls * 1 strawberry eaten per handful = <<60+15*1=75>>75 strawberries.\n#### 75",
+    "prediction": "60",
+    "correct": false,
+    "responses": [
+      "Susan eats 5 strawberries out of every 5 she picks, so she eats 5/5 = 1 strawberry per handful. This means she only picks 5 - 1 = 4 strawberries per handful. Since her basket holds 60 strawberries, she will pick 60 / 4 = 15 handfuls of strawberries. Therefore, she will actually pick 15 * 4 = 60 strawberries before filling her basket. \n\n#### 60"
+    ],
+    "marked": [
+      true
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 99,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 5264,
+    "question": "In preparation for the church fundraiser, Julia bakes one less than 5 cakes per day for 6 days.  Unfortunately, every other day, Julia's brother, Clifford, sneaks into Julia's house and eats one of Julia's cakes.  At the end of 6 days, how many cakes does Julia have remaining?",
+    "gold": "21",
+    "gold_solution": "Julia baked one less than 5 cakes per day, or 5-1=<<5-1=4>>4 cakes per day.\nFor 6 days, Julia baked 4 cakes per day, for a total of 4*6=<<4*6=24>>24 cakes.\nOver 6 days, every other day, Clifford sneaks into Julia's house and eats one of Julia's cakes resulting in disappearance of 6/2=<<6/2=3>>3 cakes.\nAt the end of 6 days, Julia has 24-3=<<24-3=21>>21 cakes remaining.\n#### 21",
+    "prediction": "12",
+    "correct": false,
+    "responses": [
+      "First, let's determine how many cakes Julia bakes each day. Since she bakes one less cake than 5 per day, we calculate:\n\n\\[ \\text{Cakes baked per day} = 5 - 1 = 4 \\]\n\nNext, we need to find out how many cakes Julia has after 6 days. We multiply the daily baking rate by the number of days:\n\n\\[ \\text{Total cakes baked} = 4 \\times 6 = 24 \\]\n\nHowever, Clifford eats one of Julia's cakes every other day. This means that out of every two days, one cake is eaten. Therefore, we divide the total number of cakes baked by 2 to find out how many cakes are left unsold:\n\n\\[ \\text{Cakes left unsold} = \\frac{24}{2} = 12 \\]\n\nThus, the number of cakes Julia has remaining at the end of 6 days is:\n\n\\[ \\boxed{12} \\]"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 205,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 6241,
+    "question": "James takes 5 oranges and breaks each orange into 8 pieces.  He splits the pieces between 4 people.  If an orange has 80 calories how many calories does each person get?",
+    "gold": "100",
+    "gold_solution": "He makes 5*8=<<5*8=40>>40 pieces\nSo each person gets 40/4=<<40/4=10>>10 pieces\nThat means each person eats 10/8=<<10/8=1.25>>1.25 of an orange\nSo each person eats 80*1.25=<<80*1.25=100>>100 calories of orange\n#### 100",
+    "prediction": "800",
+    "correct": false,
+    "responses": [
+      "First, let's calculate the total number of pieces of oranges:\n\nJames takes 5 oranges and breaks each one into 8 pieces:\n\\[ 5 \\text{ oranges} \\times 8 \\text{ pieces/orange} = 40 \\text{ pieces} \\]\n\nNext, we need to split these 40 pieces among 4 people:\n\\[ 40 \\text{ pieces} \\div 4 \\text{ people} = 10 \\text{ pieces/person} \\]\n\nNow, we know that each piece contains 80 calories. Therefore, the total number of calories per person is:\n\\[ 10 \\text{ pieces/person} \\times 80 \\text{ calories/piece} = 800 \\text{ calories/person} \\]\n\n### Final Answer:\nEach person gets **800 calories**."
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 177,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 960,
+    "question": "Cindy was 5 years old.  Her sister Jan was 2 years older than Cindy.  Their oldest sister Marcia was twice as old as Jan.  Greg was two years older than Marcia.  How old was Greg?",
+    "gold": "16",
+    "gold_solution": "Jan was 2 years older than Cindy who was 5 so 2+5 = <<2+5=7>>7 years old\nMarica was twice as old as Jan so 2*7 = <<2*7=14>>14 years old\nGreg was 2 years older than Marcia who was 14 so 2+14 = <<2+14=16>>16 years old\n#### 16",
+    "prediction": "34",
+    "correct": false,
+    "responses": [
+      "First, let's determine the ages of each sibling:\n\n1. **Cindy's age**: 5 years old.\n2. **Jan's age**: Cindy's age plus 2 years, so \\(5 + 2 = 7\\) years old.\n3. **Marcia's age**: Jan's age plus twice Cindy's age, so \\(7 + 2 \\times 5 = 7 + 10 = 17\\) years old.\n4. **Greg's age**: Twice Marcia's age, so \\(17 \\times 2 = 34\\) years old.\n\nTherefore, Greg is 34 years old."
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 134,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 6443,
+    "question": "It takes Omar 12 minutes to raise his kite 240 feet into the air. Jasper can raise his kite at three times the rate of speed as Omar can raise his kite. If Jasper raises his kite to a height of 600 feet, how many minutes will it take?",
+    "gold": "10",
+    "gold_solution": "Jasper raises his kite at a rate of 240 feet in 12 minutes, or 240/12=<<240/12=20>>20 feet per minute.\nJasper raises his kite at three times the speed Omar does, or 3*20=<<3*20=60>>60 feet per minute.\nTo raise his kite 600 feet, it will take Jasper 600/60=<<600/60=10>>10 minutes.\n#### 10",
+    "prediction": "600",
+    "correct": false,
+    "responses": [
+      "First, we need to determine Omar's raising rate. Since it takes him 12 minutes to raise his kite 240 feet, his rate is:\n\n\\[ \\text{Rate} = \\frac{\\text{Distance}}{\\text{Time}} = \\frac{240 \\text{ feet}}{12 \\text{ minutes}} = 20 \\text{ feet per minute} \\]\n\nNext, since Jasper raises his kite at three times the rate of Omar, his rate is:\n\n\\[ \\text{Jasper's Rate} = 3 \\times \\text{Omar's Rate} = 3 \\times 20 \\text{ feet per minute} = 60 \\text{ feet per minute} \\]\n\nNow, if Jasper raises his kite to a height of 600 feet, the time required would be:\n\n\\[ \\text{Time} = \\frac{\\text{Height}}{\\text{Rate}} = \\frac{600 \\text{ feet}}{60 \\text{ feet per minute}} = 10 \\text{ minutes} \\]\n\nTherefore, it will take Jasper 10 minutes to raise his kite to a height of 600 feet."
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 254,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 7051,
+    "question": "Jane is dividing up minnows to be carnival prizes. She bought 600 minnows, and each prize is a bowl with 3 minnows. If 800 people are going to play the game and 15% win a prize, how many minnows will be left over?",
+    "gold": "240",
+    "gold_solution": "First find the number of people that win a prize: 800 people * 15% = <<800*15*.01=120>>120 people\nThen multiply that number by the number of minnows each person wins: 120 people * 3 minnows/person = <<120*3=360>>360 minnows\nThen subtract that number of minnows won from the starting number to find the number that are left: 600 minnows - 360 minnows = <<600-360=240>>240 minnows\n#### 240",
+    "prediction": "-160",
+    "correct": false,
+    "responses": [
+      "First, let's calculate the total number of prizes Jane can make:\n\nJane has 600 minnows and each prize contains 3 minnows:\nTotal prizes = Number of minnows / Minnow per prize\nTotal prizes = 600 / 3\nTotal prizes = 200 prizes\n\nNext, we need to determine how many people win a prize:\n\n15% of 800 people win a prize:\nWinning percentage = 15%\nNumber of winners = (Winning percentage) * Total number of people\nNumber of winners = 0.15 * 800\nNumber of winners = 120 people\n\nNow, let's find out how many prizes are won:\n\nNumber of prizes won = Number of winners * Minnow per prize\nNumber of prizes won = 120 * 3\nNumber of prizes won = 360 prizes\n\nFinally, we'll subtract the number of prizes won from the total number of prizes to find out how many are left over:\n\nPrizes left over = Total prizes - Prizes won\nPrizes left over = 200 - 360\nPrizes left over = -160\n\nHowever, since"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 256,
+    "demo_ids": [
+      4,
+      13
+    ]
+  },
+  {
+    "id": 5664,
+    "question": "Miriam takes care of the flowers in the botanical garden. She works 5 hours a day and can take care of 60 different flowers in one day. How many flowers can Miriam take care of in 6 days of work?",
+    "gold": "360",
+    "gold_solution": "Miriam works 5 hours per day, so in 6 days, she works 5 * 6 = <<5*6=30>>30 hours.\nMiriam can take care of 60 / 5 = <<60/5=12>>12 flowers per hour.\nIn 6 days of work, Miriam can take care of 30 * 12 = <<30*12=360>>360 flowers.\n#### 360",
+    "prediction": "1800",
+    "correct": false,
+    "responses": [
+      "First, let's determine how many flowers Miriam can take care of in one day:\n\n- In one day, she works 5 hours.\n- She can take care of 60 different flowers per hour.\n\nTherefore, in one day:\n\\[ \\text{Flowers per day} = 5 \\text{ hours/day} \\times 60 \\text{ flowers/hour} = 300 \\text{ flowers/day} \\]\n\nNext, we need to find out how many flowers she can take care of in 6 days:\n\n- In 6 days, she will have worked \\( 6 \\text{ days} \\).\n\nThus, the total number of flowers she can take care of in 6 days is:\n\\[ \\text{Total flowers in 6 days} = 300 \\text{ flowers/day} \\times 6 \\text{ days} = 1800 \\text{ flowers} \\]\n\n#### 1800"
+    ],
+    "marked": [
+      true
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 201,
+    "demo_ids": [
+      4,
+      13
+    ]
+  }
+]

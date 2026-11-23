@@ -1,0 +1,14 @@
+{
+  "python": "3.10.0 | packaged by conda-forge | (default, Nov 10 2021, 13:20:59) [MSC v.1916 64 bit (AMD64)]",
+  "packages": {
+    "torch": "2.9.1+cu128",
+    "transformers": "4.57.3",
+    "datasets": "4.4.1",
+    "matplotlib": "3.10.7",
+    "requests": "2.32.5"
+  },
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "cuda": "12.8",
+  "all_parameters_frozen": true,
+  "parameter_count": 494032768
+}

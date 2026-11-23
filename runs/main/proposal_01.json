@@ -1,0 +1,32 @@
+{
+  "config": {
+    "instruction": "Solve by tracking each named quantity on its own line; derive one value at a time from the text, then combine. Never assume all animals or items are the same, and never introduce variables or equations unless the text forces it. Answer only the asked quantity, ending with: #### <number>",
+    "demo_ids": [
+      13,
+      4,
+      19
+    ]
+  },
+  "audit": {
+    "model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "base_url": "https://api.deepseek.com",
+    "response": "{\"instruction\": \"Solve by tracking each named quantity on its own line; derive one value at a time from the text, then combine. Never assume all animals or items are the same, and never introduce variables or equations unless the text forces it. Answer only the asked quantity, ending with: #### <number>\", \"demo_ids\": [13, 4, 19]}",
+    "usage": {
+      "prompt_tokens": 4707,
+      "completion_tokens": 77,
+      "total_tokens": 4784,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 4707
+    },
+    "request_hash": "74981aac62017b30a8d3fa46edafad4db62e618ca88e67677ac06e2e69f82ab7",
+    "thinking": {
+      "type": "disabled"
+    },
+    "elapsed_seconds": 1.542669799993746
+  },
+  "time_utc": "2026-11-23T06:32:11.301791+00:00"
+}

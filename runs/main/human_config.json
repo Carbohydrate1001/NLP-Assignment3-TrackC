@@ -1,0 +1,17 @@
+{
+  "instruction": "Solve with at most six short lines of calculations. Omit introductions and headings. Keep different people's quantities separate, subtract used amounts before dividing a remainder, and answer exactly the quantity asked. Finish with a final line: #### <number>.",
+  "demo_ids": [
+    4,
+    13
+  ],
+  "failure_source": "R0",
+  "evidence_ids": [
+    5878,
+    5876,
+    819,
+    5897,
+    4247
+  ],
+  "rationale": "R0 reached 26/100 correct, with 70/100 generations truncated at 256 tokens and only 7/100 using the required answer marker. In dev 5878 and 5876, several intermediate quantities were computed correctly but generation stopped before the sum. Dev 819 divided the full 500 tins instead of the remaining 200; dev 5897 confused family-member quantities; dev 4247 returned total minutes instead of per-player minutes. Use concise calculations to fit the unchanged budget. Demo 4 demonstrates subtract-then-divide; demo 13 distinguishes people and aggregates categories. These are hypothesis-driven prompt changes, not guarantees of improvement.",
+  "designed_by": "AI-assisted manual design after inspecting R0 responses; no improver API used for R1"
+}

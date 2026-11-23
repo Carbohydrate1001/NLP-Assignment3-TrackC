@@ -1,0 +1,29 @@
+{
+  "measured_target_evaluations": 20,
+  "target_inference_seconds": 1420.845775699825,
+  "target_generated_tokens": 431130,
+  "target_generations": 2494,
+  "evaluation_names": [
+    "ablation_fixed3",
+    "ablation_fixed5",
+    "final_test",
+    "human_demos_only",
+    "human_instruction_only",
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "search_00",
+    "search_01",
+    "search_02",
+    "search_03",
+    "search_04",
+    "search_05",
+    "search_06",
+    "search_07",
+    "search_seed_R0",
+    "search_seed_R1"
+  ],
+  "excludes": "downloads, model loading, API waiting, reporting"
+}

@@ -1,0 +1,10 @@
+{
+  "failure_source": "R2",
+  "evidence_ids": [
+    819,
+    4632,
+    56
+  ],
+  "designed_utc": "2026-11-23T06:36:26.225192+00:00",
+  "rationale": "R2 uses the same three demos [4,13,19] for every question. In dev 819 it predicts 200 instead of 50 after mishandling the remaining days; dev 56 predicts 70 instead of 45 after omitting the first 25 minutes; dev 4632 predicts 10 instead of 4 while missing the 20% tip operation. Question-conditioned retrieval can expose the target to available time/remaining-days demos 12 and 16, or percentage/tax demo 6, rather than the same bike/fruit/toy-car examples every time. Keep R2 instruction, demo count k=3, greedy decoding, model and token cap fixed. TF-IDF lexical similarity is a hypothesis about example relevance, not proof of mathematical equivalence; preserve negative results and log selected IDs."
+}

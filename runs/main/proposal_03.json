@@ -1,0 +1,32 @@
+{
+  "config": {
+    "instruction": "Track each named person/quantity on its own line; derive one value at a time directly from the text, following who has more/less and in which direction. Do not invent variables or equations. Compute only the asked quantity and end with: #### <number>",
+    "demo_ids": [
+      13,
+      0,
+      19
+    ]
+  },
+  "audit": {
+    "model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "base_url": "https://api.deepseek.com",
+    "response": "{\"instruction\": \"Track each named person/quantity on its own line; derive one value at a time directly from the text, following who has more/less and in which direction. Do not invent variables or equations. Compute only the asked quantity and end with: #### <number>\", \"demo_ids\": [13, 0, 19]}",
+    "usage": {
+      "prompt_tokens": 4894,
+      "completion_tokens": 71,
+      "total_tokens": 4965,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 4766
+    },
+    "request_hash": "7a38ade3bd930512c5ac231cd2a830164ae6dfacf47f6c9a1978690f6cdfc44b",
+    "thinking": {
+      "type": "disabled"
+    },
+    "elapsed_seconds": 1.3409321999642998
+  },
+  "time_utc": "2026-11-23T06:32:38.300156+00:00"
+}

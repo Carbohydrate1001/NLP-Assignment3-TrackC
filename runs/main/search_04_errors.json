@@ -1,0 +1,255 @@
+[
+  {
+    "id": 2184,
+    "question": "Frankie's parents let him have many pets. He has six more snakes than he has cats. He has one less parrot than cats. Six of his pets have four legs. He has 2 dogs. How many pets does he have in total?",
+    "gold": "19",
+    "gold_solution": "He has 6 - 2 = <<6-2=4>>4 cats.\nHe has 4 - 1 = <<4-1=3>>3 parrots.\nHe has 4 + 6 = <<4+6=10>>10 snakes.\nHe has a total of 2 + 4 + 3 + 10 = <<2+4+3+10=19>>19 pets.\n#### 19",
+    "prediction": "6",
+    "correct": false,
+    "responses": [
+      "Let's denote:\n- \\( C \\) as the number of cats,\n- \\( S \\) as the number of snakes,\n- \\( P \\) as the number of parrots,\n- \\( D \\) as the number of dogs.\n\nFrom the problem statement, we have the following relationships:\n\n1. \\( S = C + 6 \\)\n2. \\( P = C - 1 \\)\n3. \\( D = 2 \\)\n\nWe also know that six of his pets have four legs. Since there are two types of animals (cats and dogs), the total number of legs can be calculated as follows:\n\n- Cats: \\( 6C \\)\n- Dogs: \\( 2D \\)\n\nSince each cat has four legs and each dog has four legs, the total number of legs is:\n\n\\[ 6C + 2D \\]\n\nGiven that this total is equal to 24 (since six out of every ten pets have four legs):\n\n\\[ 6C"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 200,
+    "demo_ids": [
+      13,
+      4,
+      19
+    ]
+  },
+  {
+    "id": 5897,
+    "question": "Olaf collects colorful toy cars. At first, his collection consisted of 150 cars. His family, knowing his hobby, decided to give him some toy cars. Grandpa gave Olaf twice as many toy cars as the uncle. Dad gave Olaf 10 toy cars, 5 less than Mum. Auntie gave Olaf 6 toy cars, 1 more than the uncle. How many toy cars does Olaf have in total, after receiving all these gifts?",
+    "gold": "196",
+    "gold_solution": "Dad gave Olaf 10 toy cars,\nMom has given Olaf 5 more toy cars than Dad, so 10 + 5 = <<10+5=15>>15 toy cars\nAuntie gave Olaf 6 toy cars,\nUncle has given 1 less toy than Auntie, so 6 - 1 = <<6-1=5>>5 toy cars\nGrandpa gave Olaf 2 * 5 = <<2*5=10>>10 toy cars.\nAll the family together gave Olaf 10 +15 + 6 + 5 + 10 = <<10+15+6+5+10=46>>46.\nAdding the cars Olaf already had, Olaf's collection has 150 + 46 = <<150+46=196>>196 cars.\n#### 196",
+    "prediction": "70",
+    "correct": false,
+    "responses": [
+      "First, let's determine how many toy cars each person gave Olaf:\n\n- Uncle: 150 / 2 = 75 toy cars\n- Dad: 10 toy cars\n- Mum: 75 - 5 = 70 toy cars\n- Auntie: 6 toy cars\n- Grandpa: 150 toy cars\n\nNow, let's add up all the toys given away:\n\nGrandpa: 150 toy cars\nDad: 10 toy cars\nMum: 70 toy cars\nAuntie: 6 toy cars\nGrandpa + Dad + Mum + Auntie: 150 + 10 + 70 + 6 = 236 toy cars\n\nNext, we'll calculate how many toy cars Olaf received:\n\n- Uncle: 75 toy cars\n- Dad: 10 toy cars\n- Mum: 70 toy cars\n-"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 200,
+    "demo_ids": [
+      13,
+      4,
+      19
+    ]
+  },
+  {
+    "id": 6330,
+    "question": "Ezekiel hikes as a hobby. This past summer, he did a challenging three-day hike across 50 kilometers of wilderness. The first day, he covered 10 kilometers of steep mountainside. The second day was flatter and he was able to cover half the full hike distance. How many kilometers did he have to hike on the third day to finish the hike?",
+    "gold": "15",
+    "gold_solution": "After the first day, Ezekiel had 50 - 10 = <<50-10=40>>40 kilometers of the hike left.\nOn the second day, he covered 50 / 2 = <<50/2=25>>25 kilometers.\nTherefore, on the third day, he had 40 - 25 = <<40-25=15>>15 kilometers left to finish the hike.\n#### 15",
+    "prediction": "10",
+    "correct": false,
+    "responses": [
+      "First, we calculate the distance Ezekiel hiked on the second day:\n\\[ \\text{Distance on the second day} = \\frac{50}{2} = 25 \\text{ km} \\]\n\nNext, we add up the distances he hiked over the three days:\n\\[ \\text{Total distance} = 10 + 25 + 25 = 60 \\text{ km} \\]\n\nEzekiel started with 50 kilometers and finished with 60 kilometers, so he must have hiked \\( 60 - 50 = 10 \\) kilometers on the third day.\n\nTherefore, Ezekiel had to hike **10 kilometers** on the third day to finish the hike."
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 155,
+    "demo_ids": [
+      13,
+      4,
+      19
+    ]
+  },
+  {
+    "id": 819,
+    "question": "James decides to build a tin house by collecting 500 tins in a week. On the first day, he collects 50 tins. On the second day, he manages to collect 3 times that number. On the third day, he collects 50 tins fewer than the number he collected on the second day. If he collects an equal number of tins on the remaining days of the week, what's the number of tins he collected each day for the rest of the week?",
+    "gold": "50",
+    "gold_solution": "On the second day, he collected 3 times the number of tins he collected on the first day, which is 3*50 = <<3*50=150>>150 tins.\nOn the third day, he collected 50 tins fewer than the second day, which is 150-50 = <<150-50=100>>100 tins\nThe total for the three days is 150+100+50 = <<150+100+50=300>>300 tins.\nTo reach his goal, he still needs 500-300 = <<500-300=200>>200 tins.\nSince the total number of days left in the week is 4, he'll need to collect 200/4 = <<200/4=50>>50 tins per day to reach his goal\n#### 50",
+    "prediction": "20",
+    "correct": false,
+    "responses": [
+      "On the first day, James collects 50 tins.\n\nOn the second day, he collects \\( 50 \\times 3 = 150 \\) tins.\n\nOn the third day, he collects \\( 150 - 50 = 100 \\) tins.\n\nIn total, he collects \\( 50 + 150 + 100 = 300 \\) tins over three days.\n\nSince he needs to collect 500 tins in a week, he must have collected \\( 500 - 300 = 200 \\) tins on the fourth, fifth, sixth, seventh, eighth, ninth, tenth, eleventh, twelfth, and thirteenth days.\n\nTo find out how many tins he collected each day for the rest of the week, we divide the total number of tins by the number of days:\n\n\\( \\frac{20"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 200,
+    "demo_ids": [
+      13,
+      4,
+      19
+    ]
+  },
+  {
+    "id": 5308,
+    "question": "Trace has five shopping bags that weigh the same amount as Gordon’s two shopping bags. One of Gordon’s shopping bags weighs three pounds and the other weighs seven. Trace’s shopping bags all weigh the same amount. How many pounds does one of Trace’s bags weigh?",
+    "gold": "2",
+    "gold_solution": "Gordon’s bags weigh 3 + 7 = <<3+7=10>>10 pounds.\nTrace’s five bags all weigh the same amount, so each bag weighs 10 / 5 = <<10/5=2>>2 pounds.\n#### 2",
+    "prediction": "3.33",
+    "correct": false,
+    "responses": [
+      "Let \\( G \\) represent the weight of one of Gordon's shopping bags in pounds.\n\nSince Trace has five shopping bags that weigh the same as Gordon’s two shopping bags, we can write:\n\\[ 5G = 2G + 3 + 7 \\]\n\nSubtracting \\( 2G \\) from both sides gives:\n\\[ 3G = 10 \\]\n\nDividing both sides by 3 yields:\n\\[ G = \\frac{10}{3} \\approx 3.33 \\text{ pounds} \\]\n\nTherefore, one of Trace’s shopping bags weighs approximately **3.33 pounds**."
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 132,
+    "demo_ids": [
+      13,
+      4,
+      19
+    ]
+  },
+  {
+    "id": 1534,
+    "question": "A library has a number of books. 35% of them are intended for children and 104 of them are for adults. How many books are in the library?",
+    "gold": "160",
+    "gold_solution": "65% of the library books are for adults because 100 - 35 = <<100-35=65>>65\nThere are 160 library books in total because 104 / .65 = <<104/.65=160>>160\n#### 160",
+    "prediction": "-0.65",
+    "correct": false,
+    "responses": [
+      "Let \\( x \\) be the total number of books in the library.\n\nAccording to the problem:\n- 35% of the books are intended for children, so the number of books for children is \\( 0.35x \\).\n- There are 104 adult books, so the number of books for adults is 104.\n\nWe can set up the equation:\n\\[ 0.35x + 104 = x \\]\n\nTo solve for \\( x \\), we first isolate \\( x \\) on one side of the equation:\n\\[ 0.35x = x - 104 \\]\n\\[ 0.35x - x = -104 \\]\n\\[ -0.65x = -104 \\]\n\nNext, divide both sides by -0.65 to solve for \\( x \\):\n\\[ x = \\frac{-104}{-0.65} \\]\n\\["
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 200,
+    "demo_ids": [
+      13,
+      4,
+      19
+    ]
+  },
+  {
+    "id": 4247,
+    "question": "Patricia is making a highlight film about her basketball team. She recorded video of every player and plans to put it all together in a longer movie. She has 130 seconds of the point guard, 145 seconds of the shooting guard, 85 seconds of the small forward, 60 seconds of the power forward, and 180 seconds of the center. How on average, how many minutes does each player get?",
+    "gold": "2",
+    "gold_solution": "The total movie is 600 seconds long because 130 + 145 + 85 + 60 + 180 = <<130+145+85+60+180=600>>600\nThe total movie is 10 minutes long because 600 / 60 = <<600/60=10>>10\nOn average each player gets 2 minutes because 10 / 5 = <<10/5=2>>2\n#### 2",
+    "prediction": "2.4",
+    "correct": false,
+    "responses": [
+      "To find out how many minutes each player gets on average, we first need to convert the total recording time into minutes.\n\nTotal recording time in minutes:\n\\[ \\frac{130}{60} + \\frac{145}{60} + \\frac{85}{60} + \\frac{60}{60} + \\frac{180}{60} \\]\n\nCalculating each fraction:\n\\[ \\frac{130}{60} = 2.1667 \\]\n\\[ \\frac{145}{60} = 2.4167 \\]\n\\[ \\frac{85}{60} = 1.4167 \\]\n\\[ \\frac{60}{60} = 1 \\]\n\\[ \\frac{180}{60} = 3 \\]\n\nAdding these up:\n\\[ 2.1667 + 2.4"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 200,
+    "demo_ids": [
+      13,
+      4,
+      19
+    ]
+  },
+  {
+    "id": 1727,
+    "question": "Niko has bought 9 pairs of socks that cost $2 each and plans to resell them. He wants to gain 25% profit from four of the pairs of socks and $0.2 profit each for the other 5 pairs of socks. How much will his total profit be?",
+    "gold": "3",
+    "gold_solution": "Niko will earn $2 x 25/100 = $<<2*25/100=0.5>>0.5 profit for each of the first four pairs of socks.\nSo, his total profit for the four pairs of socks will be $0.5 x 4 = $<<0.5*4=2>>2.\nHis total earnings for the 5 pairs of socks is $0.2 x 5 = $<<0.2*5=1>>1.\nTherefore, his total profit will be $2 + $1 = $<<2+1=3>>3.\n#### 3",
+    "prediction": "9.09",
+    "correct": false,
+    "responses": [
+      "First, calculate the total cost of the socks:\n\\[ \\text{Total Cost} = 9 \\times \\$2 = \\$18 \\]\n\nNext, determine the amount Niko wants to make from selling the socks:\n\\[ \\text{Profit per pair} = \\$2 \\times (1 + 0.25) = \\$2 \\times 1.25 = \\$2.50 \\]\nSince he wants to make a total profit of $25, we need to find out how many pairs he needs to sell to reach this amount.\n\nLet \\( x \\) be the number of pairs he sells. The equation becomes:\n\\[ 0.25x + 2.50x = 25 \\]\n\\[ 2.75x = 25 \\]\n\\[ x = \\frac{25}{2.75} \\approx 9.09 \\]\n\nSince he can't sell a fraction of a pair, he"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 200,
+    "demo_ids": [
+      13,
+      4,
+      19
+    ]
+  },
+  {
+    "id": 1601,
+    "question": "The number of short students in a class is 2/5 of the total number of students. If there are 90 tall students, and the class has 400 students, calculate the total number of students with average height.",
+    "gold": "150",
+    "gold_solution": "The number of short students in the class is 2/5*400 = <<2/5*400=160>>160\nThe total number of short and tall students is 160+90 = <<160+90=250>>250\nSince there are 400 students in the class, the number of students with average height is 400-250 = <<400-250=150>>150\n#### 150",
+    "prediction": "2",
+    "correct": false,
+    "responses": [
+      "Let \\( T \\) be the total number of students in the class.\n\nGiven:\n- The number of short students is \\( \\frac{2}{5}T \\).\n- There are 90 tall students.\n- The total number of students is 400.\n\nFirst, we find the number of short students:\n\\[\n\\text{Number of short students} = \\frac{2}{5}T\n\\]\n\nNext, we know the sum of all students is 400:\n\\[\nT + \\text{Number of short students} + \\text{Tall students} = 400\n\\]\nSubstitute the known values:\n\\[\nT + \\frac{2}{5}T + 90 = 400\n\\]\n\nCombine like terms:\n\\[\n\\left(1 + \\frac{2}{5}\\right)T + 90 = 400\n\\]\nConvert \\( \\frac{2}{"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 200,
+    "demo_ids": [
+      13,
+      4,
+      19
+    ]
+  },
+  {
+    "id": 3848,
+    "question": "James buys 20 coins of a cryptocurrency at $15 each.  The value of the coins increases by 2/3.  He sells coins to recoup his original investment.  How many coins did he sell?",
+    "gold": "12",
+    "gold_solution": "His original investment was 15*20=$<<15*20=300>>300\nThe value of his investment increases by 15*2/3=$<<15*2/3=10>>10 per coin\nSo each coin was worth 15+10=$<<15+10=25>>25\nSo he sold 300/25=<<300/25=12>>12 coins\n#### 12",
+    "prediction": "13",
+    "correct": false,
+    "responses": [
+      "James initially spent $15 x 20 = $300.\n\nThe value of the coins increases by $\\frac{2}{3}$, so the new price per coin is $15 \\times \\frac{3}{2} = \\$\\frac{45}{2}$ or $22.5$.\n\nTo recover his initial investment of $300, James needs to sell enough coins to make up the difference:\n\n$$\\text{Number of coins sold} = \\frac{\\text{Initial investment}}{\\text{New price per coin}} = \\frac{300}{22.5} = 13.33$$\n\nSince James can't sell a fraction of a coin, he must sell 13 coins to cover his initial investment.\n\n#### 13"
+    ],
+    "marked": [
+      true
+    ],
+    "truncated": [
+      false
+    ],
+    "generated_tokens": 168,
+    "demo_ids": [
+      13,
+      4,
+      19
+    ]
+  },
+  {
+    "id": 1948,
+    "question": "Tonya has opened a lemonade stand selling lemonade in small, medium, and large cups at $1, $2 and $3 respectively. At the close of business she ended up making $50.  As she went back through her inventory she noticed that she sold $11 worth of small lemonades and $24 worth of medium lemonades. How many cups of large lemonade did Tonya sell?",
+    "gold": "5",
+    "gold_solution": "1. Tonya sold $11 worth of small lemonades and $24 worth of medium lemonades which makes $11 + $24= $<<11+24=35>>35 for small and medium lemonades.\n2. Tonya made a total of $50. If she made $35 selling the two smaller sizes and she sold three sizes in all then $50-$35= $<<50-35=15>>15 worth of large lemonades.\n3. The large lemonades sold for $3 each and Tonya sold $15 worth of large lemonades which means she sold $15/$3=<<15/3=5>>5 large cups of lemonade.\n#### 5",
+    "prediction": "3",
+    "correct": false,
+    "responses": [
+      "Let \\( S \\) be the number of small lemonades sold, \\( M \\) be the number of medium lemonades sold, and \\( L \\) be the number of large lemonades sold.\n\nFrom the problem statement:\n1. The total revenue from sales can be expressed as:\n   \\[\n   1S + 2M + 3L = 50\n   \\]\n2. The total amount of money made from selling small and medium lemonades is:\n   \\[\n   11 + 24 = 35\n   \\]\n\nWe need to find the values of \\( S \\), \\( M \\), and \\( L \\). We will solve these equations step-by-step:\n\n### Step 1: Express \\( S \\) and \\( M \\) in terms of \\( L \\)\nFrom the first equation:\n\\[\n1S + 2M + 3L = 50\n\\]\nDivide the entire equation by 3"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 200,
+    "demo_ids": [
+      13,
+      4,
+      19
+    ]
+  }
+]

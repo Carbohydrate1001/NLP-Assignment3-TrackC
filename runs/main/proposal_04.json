@@ -1,0 +1,32 @@
+{
+  "config": {
+    "instruction": "Solve step by step in at most six lines, tracking each named quantity on its own line and deriving one value at a time directly from the text. Follow who has more/less and in which direction, never invent variables, and answer only the asked quantity, ending with: #### <number>",
+    "demo_ids": [
+      13,
+      4,
+      19
+    ]
+  },
+  "audit": {
+    "model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "base_url": "https://api.deepseek.com",
+    "response": "{\"instruction\": \"Solve step by step in at most six lines, tracking each named quantity on its own line and deriving one value at a time directly from the text. Follow who has more/less and in which direction, never invent variables, and answer only the asked quantity, ending with: #### <number>\", \"demo_ids\": [13, 4, 19]}",
+    "usage": {
+      "prompt_tokens": 4983,
+      "completion_tokens": 77,
+      "total_tokens": 5060,
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 256,
+      "prompt_cache_miss_tokens": 4727
+    },
+    "request_hash": "0086e0af825c1bd5e0fe56e7856e179de697dd7cb4611a51f03489ab42b0e63c",
+    "thinking": {
+      "type": "disabled"
+    },
+    "elapsed_seconds": 0.9517095999908634
+  },
+  "time_utc": "2026-11-23T06:32:51.141310+00:00"
+}

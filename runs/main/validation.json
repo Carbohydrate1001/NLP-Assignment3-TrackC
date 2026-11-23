@@ -1,0 +1,24 @@
+{
+  "checked_utc": "2026-11-23T07:02:48.398242+00:00",
+  "frozen_code_data_and_candidate_hashes": "pass",
+  "all_nine_dev_candidates_and_final_scoring": "pass",
+  "test_lock_matches_frozen_artifact": "pass",
+  "test_questions_disjoint_from_visible_questions": "pass",
+  "protocol_unittests": "8 passed",
+  "python_syntax_files": [
+    "ablate_human.py",
+    "analyze_results.py",
+    "harness.py",
+    "reproduce_dev.py",
+    "run_trackc.py",
+    "update_report.py",
+    "tests\\test_protocol.py"
+  ],
+  "notebook_code_syntax": "pass",
+  "credential_scan": "pass; 98 project files; no credential values logged",
+  "target_inference_repeated_for_validation": false,
+  "final_accuracy": 0.43,
+  "dev_accuracy": 0.56,
+  "gap_percentage_points": 13,
+  "notebook_default_execution": "pass; reads saved results only"
+}

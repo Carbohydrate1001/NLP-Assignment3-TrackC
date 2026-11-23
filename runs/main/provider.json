@@ -1,0 +1,21 @@
+{
+  "provider": "DeepSeek official",
+  "base_url": "https://api.deepseek.com",
+  "model": "deepseek-flash",
+  "response_model": "deepseek-flash",
+  "thinking": "disabled",
+  "response_format": "json_object",
+  "configuration_verified_utc": "2026-11-23T06:31:16.494463+00:00",
+  "docs": "https://api-docs.deepseek.com/",
+  "setup_probe_usage": {
+    "prompt_tokens": 37,
+    "completion_tokens": 6,
+    "total_tokens": 43,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 37
+  },
+  "setup_probe_is_not_an_optimization_round": true
+}

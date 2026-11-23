@@ -1,0 +1,98 @@
+[
+  {
+    "step": 0,
+    "config": {
+      "instruction": "Solve step by step in at most six short lines, keeping each person's quantities separate. Apply discounts/divisions to the correct remainder, and never invent variables or equations not implied by the text. Answer exactly the quantity asked, ending with a line: #### <number>",
+      "demo_ids": [
+        4,
+        13,
+        19
+      ]
+    },
+    "accuracy": 0.45
+  },
+  {
+    "step": 1,
+    "config": {
+      "instruction": "Solve by tracking each named quantity on its own line; derive one value at a time from the text, then combine. Never assume all animals or items are the same, and never introduce variables or equations unless the text forces it. Answer only the asked quantity, ending with: #### <number>",
+      "demo_ids": [
+        13,
+        4,
+        19
+      ]
+    },
+    "accuracy": 0.35
+  },
+  {
+    "step": 2,
+    "config": {
+      "instruction": "Solve by tracking each named quantity on its own line, deriving one value at a time directly from the text. Read carefully who has more/less than whom and in which direction. Never introduce invented variables or equations. Answer only the asked quantity, ending with: #### <number>",
+      "demo_ids": [
+        13,
+        19,
+        0
+      ]
+    },
+    "accuracy": 0.3
+  },
+  {
+    "step": 3,
+    "config": {
+      "instruction": "Track each named person/quantity on its own line; derive one value at a time directly from the text, following who has more/less and in which direction. Do not invent variables or equations. Compute only the asked quantity and end with: #### <number>",
+      "demo_ids": [
+        13,
+        0,
+        19
+      ]
+    },
+    "accuracy": 0.3
+  },
+  {
+    "step": 4,
+    "config": {
+      "instruction": "Solve step by step in at most six lines, tracking each named quantity on its own line and deriving one value at a time directly from the text. Follow who has more/less and in which direction, never invent variables, and answer only the asked quantity, ending with: #### <number>",
+      "demo_ids": [
+        13,
+        4,
+        19
+      ]
+    },
+    "accuracy": 0.45
+  },
+  {
+    "step": 5,
+    "config": {
+      "instruction": "Answer only the asked quantity. Work one step per line, deriving each number directly from the text. Careful: relatives may be described relative to different people (e.g., aunt vs uncle), and totals may span multiple days. Do not assume unnamed quantities are equal or reuse the starting total as a person's gift. End with: #### <number>",
+      "demo_ids": [
+        13,
+        4,
+        19
+      ]
+    },
+    "accuracy": 0.45
+  },
+  {
+    "step": 6,
+    "config": {
+      "instruction": "Derive each value directly from the text, one per line, without inventing variables. Watch for who is compared to whom and which quantities are given outright. Answer only the asked quantity; end with: #### <number>",
+      "demo_ids": [
+        13,
+        4,
+        19
+      ]
+    },
+    "accuracy": 0.25
+  },
+  {
+    "step": 7,
+    "config": {
+      "instruction": "Work one step per line, deriving each value directly from the text. Watch comparisons carefully: identify who is more/less and in which direction. Never invent variables or assume unstated equalities. Answer only the asked quantity, ending with: #### <number>",
+      "demo_ids": [
+        13,
+        4,
+        19
+      ]
+    },
+    "accuracy": 0.4
+  }
+]

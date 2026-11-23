@@ -1,0 +1,18 @@
+{
+  "track": "C",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "dataset": "openai/gsm8k",
+  "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "dataset_revision": "740312add88f781978c0658806c59bc2815b9866",
+  "seed": 42,
+  "dev_size": 100,
+  "demo_size": 20,
+  "test_size": 100,
+  "search_size": 20,
+  "max_evals": 8,
+  "batch_size": 16,
+  "max_new_tokens": 256,
+  "search_max_new_tokens": 200,
+  "metric": "Exact Decimal numeric match; last #### number, else last number",
+  "created_utc": "2026-11-23T05:51:26.437156+00:00"
+}

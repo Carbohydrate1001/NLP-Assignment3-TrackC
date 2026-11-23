@@ -1,0 +1,30 @@
+{
+  "selected_round": "ablation_fixed5",
+  "config": {
+    "instruction": "Solve step by step in at most six short lines, keeping each person's quantities separate. Apply discounts/divisions to the correct remainder, and never invent variables or equations not implied by the text. Answer exactly the quantity asked, ending with a line: #### <number>",
+    "demo_ids": [
+      4,
+      13,
+      19
+    ],
+    "decoding": "fixed5"
+  },
+  "dev_accuracy": 0.56,
+  "code_hash": "ef75943f590355745ef238e8d5b1745b5093e0fd2afec2756669e2e246a6a1f2",
+  "manifest_hash": "7441cc46828c57f804f842d391c714e9610cd8a3d0c6e6f2267167f3dd810749",
+  "visible_hash": "f9d39ebc7e78da8c7785bf0d31fd33b147c32343fc36a7745c75a3cd9ad9713b",
+  "round_hashes": {
+    "R0": "ab8870d1fe0c2c4275e610bc54047fd88aa8225a7705cd63b06dadf195cd0428",
+    "R1": "022e27d3a62d69bd99414174ec8895778b05d5c59c3b37796a7ac3b85fa42d88",
+    "R2": "94c3a1d065abd3412e0c36b91e33becd632ccf88867317cc4bf758824ac0cc36",
+    "R3": "ffd36aa725ca8ef3f006d197bc21e33648e74efccf7f0270395a2556e6008d44",
+    "R4": "3476ec47f7c141f65730d69932c6c5fc77ded1ff26a935cd07a2f1a333685e54",
+    "human_instruction_only": "ad65a3839b6f013ca26f5101c84fd784be47b2636be0ec44d59a6f2c3094dba8",
+    "human_demos_only": "82cab0cd38a66afd949a0438bcce900a62bc16726103056f9e0c50aa5ea81e8b",
+    "ablation_fixed3": "3d337b54b420873e2db236db8ed9eb6ed1d5f551b35c6893d986bf9df0cdb5b5",
+    "ablation_fixed5": "ac5647b91291bcac870642f6761a3ebd5afd2e824658fbdcd66b48f8639a2f2d"
+  },
+  "selection_rule": "highest full-dev accuracy; then fewer generated tokens; then listed order",
+  "scope": "final artifact only",
+  "frozen_utc": "2026-11-23T06:52:07.682938+00:00"
+}

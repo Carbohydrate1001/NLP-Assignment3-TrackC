@@ -1,0 +1,32 @@
+{
+  "config": {
+    "instruction": "Answer only the asked quantity. Work one step per line, deriving each number directly from the text. Careful: relatives may be described relative to different people (e.g., aunt vs uncle), and totals may span multiple days. Do not assume unnamed quantities are equal or reuse the starting total as a person's gift. End with: #### <number>",
+    "demo_ids": [
+      13,
+      4,
+      19
+    ]
+  },
+  "audit": {
+    "model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "base_url": "https://api.deepseek.com",
+    "response": "{\"instruction\": \"Answer only the asked quantity. Work one step per line, deriving each number directly from the text. Careful: relatives may be described relative to different people (e.g., aunt vs uncle), and totals may span multiple days. Do not assume unnamed quantities are equal or reuse the starting total as a person's gift. End with: #### <number>\", \"demo_ids\": [13, 4, 19]}",
+    "usage": {
+      "prompt_tokens": 5078,
+      "completion_tokens": 89,
+      "total_tokens": 5167,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 4694
+    },
+    "request_hash": "b9a0e13d3a53dcccef6ed4b5176e7194d10c5804e5df42bfb404ba0b3058ef8c",
+    "thinking": {
+      "type": "disabled"
+    },
+    "elapsed_seconds": 1.3269173000007868
+  },
+  "time_utc": "2026-11-23T06:33:06.116327+00:00"
+}

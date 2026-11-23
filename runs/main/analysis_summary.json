@@ -1,0 +1,730 @@
+{
+  "metrics": {
+    "R0": {
+      "accuracy": 0.26,
+      "n": 100,
+      "elapsed_seconds": 56.27331540000159,
+      "generated_tokens": 24488,
+      "generations": 100,
+      "marked_rate": 0.07,
+      "truncation_rate": 0.7,
+      "peak_allocated_mb": 1119.59375,
+      "seed": 42,
+      "max_new_tokens": 256,
+      "correct_count": 26,
+      "failure_count": 74,
+      "failures_with_any_truncated_response": 62,
+      "unparseable_predictions": 0,
+      "expanded_to_five": 0,
+      "config": {
+        "instruction": "Solve the following math problem. Reason step by step, then give the final numeric answer on a new line in the format '#### <answer>'.",
+        "demo_ids": []
+      }
+    },
+    "R1": {
+      "accuracy": 0.4,
+      "n": 100,
+      "elapsed_seconds": 66.46969619998708,
+      "generated_tokens": 17510,
+      "generations": 100,
+      "marked_rate": 0.17,
+      "truncation_rate": 0.29,
+      "peak_allocated_mb": 1338.330078125,
+      "seed": 42,
+      "max_new_tokens": 256,
+      "correct_count": 40,
+      "failure_count": 60,
+      "failures_with_any_truncated_response": 25,
+      "unparseable_predictions": 0,
+      "expanded_to_five": 0,
+      "config": {
+        "instruction": "Solve with at most six short lines of calculations. Omit introductions and headings. Keep different people's quantities separate, subtract used amounts before dividing a remainder, and answer exactly the quantity asked. Finish with a final line: #### <number>.",
+        "demo_ids": [
+          4,
+          13
+        ]
+      }
+    },
+    "R2": {
+      "accuracy": 0.48,
+      "n": 100,
+      "elapsed_seconds": 61.554127099982,
+      "generated_tokens": 15098,
+      "generations": 100,
+      "marked_rate": 0.26,
+      "truncation_rate": 0.16,
+      "peak_allocated_mb": 1481.9921875,
+      "seed": 42,
+      "max_new_tokens": 256,
+      "correct_count": 48,
+      "failure_count": 52,
+      "failures_with_any_truncated_response": 14,
+      "unparseable_predictions": 0,
+      "expanded_to_five": 0,
+      "config": {
+        "instruction": "Solve step by step in at most six short lines, keeping each person's quantities separate. Apply discounts/divisions to the correct remainder, and never invent variables or equations not implied by the text. Answer exactly the quantity asked, ending with a line: #### <number>",
+        "demo_ids": [
+          4,
+          13,
+          19
+        ]
+      }
+    },
+    "R3": {
+      "accuracy": 0.36,
+      "n": 100,
+      "elapsed_seconds": 52.25051370001165,
+      "generated_tokens": 14994,
+      "generations": 100,
+      "marked_rate": 0.34,
+      "truncation_rate": 0.14,
+      "peak_allocated_mb": 1565.2138671875,
+      "seed": 42,
+      "max_new_tokens": 256,
+      "correct_count": 36,
+      "failure_count": 64,
+      "failures_with_any_truncated_response": 13,
+      "unparseable_predictions": 0,
+      "expanded_to_five": 0,
+      "config": {
+        "instruction": "Solve step by step in at most six short lines, keeping each person's quantities separate. Apply discounts/divisions to the correct remainder, and never invent variables or equations not implied by the text. Answer exactly the quantity asked, ending with a line: #### <number>",
+        "demo_ids": [
+          4,
+          13,
+          19
+        ],
+        "retrieval": true,
+        "k": 3
+      }
+    },
+    "R4": {
+      "accuracy": 0.53,
+      "n": 100,
+      "elapsed_seconds": 208.4658318000147,
+      "generated_tokens": 65839,
+      "generations": 394,
+      "marked_rate": 0.27411167512690354,
+      "truncation_rate": 0.233502538071066,
+      "peak_allocated_mb": 1481.25244140625,
+      "seed": 42,
+      "max_new_tokens": 256,
+      "correct_count": 53,
+      "failure_count": 47,
+      "failures_with_any_truncated_response": 31,
+      "unparseable_predictions": 0,
+      "expanded_to_five": 47,
+      "config": {
+        "instruction": "Solve step by step in at most six short lines, keeping each person's quantities separate. Apply discounts/divisions to the correct remainder, and never invent variables or equations not implied by the text. Answer exactly the quantity asked, ending with a line: #### <number>",
+        "demo_ids": [
+          4,
+          13,
+          19
+        ],
+        "decoding": "adaptive"
+      }
+    },
+    "human_instruction_only": {
+      "accuracy": 0.37,
+      "n": 100,
+      "elapsed_seconds": 63.90843110001879,
+      "generated_tokens": 22360,
+      "generations": 100,
+      "marked_rate": 0.0,
+      "truncation_rate": 0.44,
+      "peak_allocated_mb": 1132.31591796875,
+      "seed": 42,
+      "max_new_tokens": 256,
+      "correct_count": 37,
+      "failure_count": 63,
+      "failures_with_any_truncated_response": 38,
+      "unparseable_predictions": 0,
+      "expanded_to_five": 0,
+      "config": {
+        "instruction": "Solve with at most six short lines of calculations. Omit introductions and headings. Keep different people's quantities separate, subtract used amounts before dividing a remainder, and answer exactly the quantity asked. Finish with a final line: #### <number>.",
+        "demo_ids": []
+      }
+    },
+    "human_demos_only": {
+      "accuracy": 0.48,
+      "n": 100,
+      "elapsed_seconds": 59.97487239999464,
+      "generated_tokens": 19893,
+      "generations": 100,
+      "marked_rate": 0.14,
+      "truncation_rate": 0.31,
+      "peak_allocated_mb": 1322.921875,
+      "seed": 42,
+      "max_new_tokens": 256,
+      "correct_count": 48,
+      "failure_count": 52,
+      "failures_with_any_truncated_response": 26,
+      "unparseable_predictions": 0,
+      "expanded_to_five": 0,
+      "config": {
+        "instruction": "Solve the following math problem. Reason step by step, then give the final numeric answer on a new line in the format '#### <answer>'.",
+        "demo_ids": [
+          4,
+          13
+        ]
+      }
+    },
+    "ablation_fixed3": {
+      "accuracy": 0.49,
+      "n": 100,
+      "elapsed_seconds": 173.8354109999491,
+      "generated_tokens": 48949,
+      "generations": 300,
+      "marked_rate": 0.27,
+      "truncation_rate": 0.21666666666666667,
+      "peak_allocated_mb": 1481.25244140625,
+      "seed": 42,
+      "max_new_tokens": 256,
+      "correct_count": 49,
+      "failure_count": 51,
+      "failures_with_any_truncated_response": 27,
+      "unparseable_predictions": 0,
+      "expanded_to_five": 0,
+      "config": {
+        "instruction": "Solve step by step in at most six short lines, keeping each person's quantities separate. Apply discounts/divisions to the correct remainder, and never invent variables or equations not implied by the text. Answer exactly the quantity asked, ending with a line: #### <number>",
+        "demo_ids": [
+          4,
+          13,
+          19
+        ],
+        "decoding": "fixed3"
+      }
+    },
+    "ablation_fixed5": {
+      "accuracy": 0.56,
+      "n": 100,
+      "elapsed_seconds": 276.09317060001194,
+      "generated_tokens": 82447,
+      "generations": 500,
+      "marked_rate": 0.268,
+      "truncation_rate": 0.216,
+      "peak_allocated_mb": 1481.25244140625,
+      "seed": 42,
+      "max_new_tokens": 256,
+      "correct_count": 56,
+      "failure_count": 44,
+      "failures_with_any_truncated_response": 28,
+      "unparseable_predictions": 0,
+      "expanded_to_five": 100,
+      "config": {
+        "instruction": "Solve step by step in at most six short lines, keeping each person's quantities separate. Apply discounts/divisions to the correct remainder, and never invent variables or equations not implied by the text. Answer exactly the quantity asked, ending with a line: #### <number>",
+        "demo_ids": [
+          4,
+          13,
+          19
+        ],
+        "decoding": "fixed5"
+      }
+    }
+  },
+  "transitions": {
+    "R0 -> R1": {
+      "recovered": [
+        5710,
+        2502,
+        4423,
+        6195,
+        1483,
+        2727,
+        7114,
+        2477,
+        5941,
+        130,
+        5589,
+        3626,
+        146,
+        2397,
+        2479,
+        6443,
+        5664,
+        4875
+      ],
+      "regressed": [
+        963,
+        3418,
+        4977,
+        5560
+      ],
+      "still_wrong": [
+        2184,
+        5897,
+        2437,
+        819,
+        5878,
+        5876,
+        5308,
+        1534,
+        2663,
+        4247,
+        1727,
+        1601,
+        3848,
+        6009,
+        1948,
+        56,
+        5079,
+        3115,
+        289,
+        5468,
+        1789,
+        3703,
+        4306,
+        6042,
+        6851,
+        4389,
+        1837,
+        2068,
+        2428,
+        5809,
+        5517,
+        623,
+        4943,
+        6118,
+        2126,
+        1890,
+        2691,
+        907,
+        5196,
+        1938,
+        5111,
+        6012,
+        1481,
+        4782,
+        7123,
+        1120,
+        5182,
+        3269,
+        1225,
+        3320,
+        3084,
+        5264,
+        6241,
+        4025,
+        7051,
+        7269
+      ]
+    },
+    "R1 -> R2": {
+      "recovered": [
+        2437,
+        5878,
+        5876,
+        1534,
+        2663,
+        3848,
+        6009,
+        4306,
+        4389,
+        963,
+        2068,
+        5560,
+        5111,
+        5182,
+        3269,
+        5264,
+        4025,
+        7269
+      ],
+      "regressed": [
+        4632,
+        5710,
+        7079,
+        5941,
+        1332,
+        5589,
+        146,
+        2008,
+        6443,
+        4875
+      ],
+      "still_wrong": [
+        2184,
+        5897,
+        819,
+        5308,
+        4247,
+        1727,
+        1601,
+        1948,
+        56,
+        5079,
+        3115,
+        289,
+        5468,
+        1789,
+        3703,
+        6042,
+        6851,
+        3418,
+        4977,
+        1837,
+        2428,
+        5809,
+        5517,
+        623,
+        4943,
+        6118,
+        2126,
+        1890,
+        2691,
+        907,
+        5196,
+        1938,
+        6012,
+        1481,
+        4782,
+        7123,
+        1120,
+        1225,
+        3320,
+        3084,
+        6241,
+        7051
+      ]
+    },
+    "R2 -> R3": {
+      "recovered": [
+        5710,
+        5468,
+        2691,
+        5196,
+        5589,
+        146,
+        6443,
+        7051,
+        4875
+      ],
+      "regressed": [
+        3082,
+        5302,
+        2663,
+        2271,
+        4306,
+        2502,
+        4423,
+        4389,
+        1483,
+        4079,
+        963,
+        6491,
+        2068,
+        6675,
+        5111,
+        3626,
+        5182,
+        3269,
+        933,
+        5664,
+        7269
+      ],
+      "still_wrong": [
+        2184,
+        5897,
+        819,
+        5308,
+        4247,
+        4632,
+        1727,
+        1601,
+        1948,
+        56,
+        5079,
+        3115,
+        289,
+        1789,
+        3703,
+        6042,
+        6851,
+        7079,
+        3418,
+        4977,
+        1837,
+        2428,
+        5809,
+        5517,
+        5941,
+        623,
+        1332,
+        4943,
+        6118,
+        2126,
+        1890,
+        907,
+        1938,
+        6012,
+        1481,
+        4782,
+        7123,
+        1120,
+        1225,
+        2008,
+        3320,
+        3084,
+        6241
+      ]
+    },
+    "R3 -> R4": {
+      "recovered": [
+        3082,
+        819,
+        5302,
+        2663,
+        1727,
+        2271,
+        2502,
+        4423,
+        4389,
+        1483,
+        4079,
+        7079,
+        963,
+        6491,
+        2068,
+        5941,
+        1332,
+        1890,
+        5111,
+        3626,
+        5182,
+        3269,
+        933,
+        2008,
+        7269
+      ],
+      "regressed": [
+        6330,
+        2691,
+        5196,
+        6588,
+        5589,
+        146,
+        6443,
+        7051
+      ],
+      "still_wrong": [
+        2184,
+        5897,
+        5308,
+        4247,
+        4632,
+        1601,
+        1948,
+        56,
+        5079,
+        3115,
+        289,
+        1789,
+        3703,
+        4306,
+        6042,
+        6851,
+        3418,
+        4977,
+        1837,
+        2428,
+        5809,
+        5517,
+        623,
+        4943,
+        6118,
+        2126,
+        907,
+        6675,
+        1938,
+        6012,
+        1481,
+        4782,
+        7123,
+        1120,
+        1225,
+        3320,
+        3084,
+        6241,
+        5664
+      ]
+    },
+    "R2 -> R4": {
+      "recovered": [
+        819,
+        1727,
+        5710,
+        5468,
+        7079,
+        5941,
+        1332,
+        1890,
+        2008,
+        4875
+      ],
+      "regressed": [
+        6330,
+        4306,
+        6675,
+        6588,
+        5664
+      ],
+      "still_wrong": [
+        2184,
+        5897,
+        5308,
+        4247,
+        4632,
+        1601,
+        1948,
+        56,
+        5079,
+        3115,
+        289,
+        1789,
+        3703,
+        6042,
+        6851,
+        3418,
+        4977,
+        1837,
+        2428,
+        5809,
+        5517,
+        623,
+        4943,
+        6118,
+        2126,
+        2691,
+        907,
+        5196,
+        1938,
+        6012,
+        1481,
+        4782,
+        5589,
+        7123,
+        1120,
+        146,
+        1225,
+        3320,
+        3084,
+        6241,
+        6443,
+        7051
+      ]
+    }
+  },
+  "improver_usage": {
+    "prompt_tokens": 39118,
+    "completion_tokens": 597,
+    "total_tokens": 39715,
+    "prompt_cache_hit_tokens": 896,
+    "prompt_cache_miss_tokens": 38222
+  },
+  "proposals": [
+    {
+      "file": "proposal_00.json",
+      "failed": false,
+      "config": {
+        "instruction": "Solve step by step in at most six short lines, keeping each person's quantities separate. Apply discounts/divisions to the correct remainder, and never invent variables or equations not implied by the text. Answer exactly the quantity asked, ending with a line: #### <number>",
+        "demo_ids": [
+          4,
+          13,
+          19
+        ]
+      },
+      "response_model": "deepseek-flash"
+    },
+    {
+      "file": "proposal_01.json",
+      "failed": false,
+      "config": {
+        "instruction": "Solve by tracking each named quantity on its own line; derive one value at a time from the text, then combine. Never assume all animals or items are the same, and never introduce variables or equations unless the text forces it. Answer only the asked quantity, ending with: #### <number>",
+        "demo_ids": [
+          13,
+          4,
+          19
+        ]
+      },
+      "response_model": "deepseek-flash"
+    },
+    {
+      "file": "proposal_02.json",
+      "failed": false,
+      "config": {
+        "instruction": "Solve by tracking each named quantity on its own line, deriving one value at a time directly from the text. Read carefully who has more/less than whom and in which direction. Never introduce invented variables or equations. Answer only the asked quantity, ending with: #### <number>",
+        "demo_ids": [
+          13,
+          19,
+          0
+        ]
+      },
+      "response_model": "deepseek-flash"
+    },
+    {
+      "file": "proposal_03.json",
+      "failed": false,
+      "config": {
+        "instruction": "Track each named person/quantity on its own line; derive one value at a time directly from the text, following who has more/less and in which direction. Do not invent variables or equations. Compute only the asked quantity and end with: #### <number>",
+        "demo_ids": [
+          13,
+          0,
+          19
+        ]
+      },
+      "response_model": "deepseek-flash"
+    },
+    {
+      "file": "proposal_04.json",
+      "failed": false,
+      "config": {
+        "instruction": "Solve step by step in at most six lines, tracking each named quantity on its own line and deriving one value at a time directly from the text. Follow who has more/less and in which direction, never invent variables, and answer only the asked quantity, ending with: #### <number>",
+        "demo_ids": [
+          13,
+          4,
+          19
+        ]
+      },
+      "response_model": "deepseek-flash"
+    },
+    {
+      "file": "proposal_05.json",
+      "failed": false,
+      "config": {
+        "instruction": "Answer only the asked quantity. Work one step per line, deriving each number directly from the text. Careful: relatives may be described relative to different people (e.g., aunt vs uncle), and totals may span multiple days. Do not assume unnamed quantities are equal or reuse the starting total as a person's gift. End with: #### <number>",
+        "demo_ids": [
+          13,
+          4,
+          19
+        ]
+      },
+      "response_model": "deepseek-flash"
+    },
+    {
+      "file": "proposal_06.json",
+      "failed": false,
+      "config": {
+        "instruction": "Derive each value directly from the text, one per line, without inventing variables. Watch for who is compared to whom and which quantities are given outright. Answer only the asked quantity; end with: #### <number>",
+        "demo_ids": [
+          13,
+          4,
+          19
+        ]
+      },
+      "response_model": "deepseek-flash"
+    },
+    {
+      "file": "proposal_07.json",
+      "failed": false,
+      "config": {
+        "instruction": "Work one step per line, deriving each value directly from the text. Watch comparisons carefully: identify who is more/less and in which direction. Never invent variables or assume unstated equalities. Answer only the asked quantity, ending with: #### <number>",
+        "demo_ids": [
+          13,
+          4,
+          19
+        ]
+      },
+      "response_model": "deepseek-flash"
+    }
+  ],
+  "note": "Automatic error categories describe observable output properties, not inferred causes."
+}

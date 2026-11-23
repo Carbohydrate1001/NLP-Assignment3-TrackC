@@ -1,0 +1,325 @@
+[
+  {
+    "id": 2184,
+    "question": "Frankie's parents let him have many pets. He has six more snakes than he has cats. He has one less parrot than cats. Six of his pets have four legs. He has 2 dogs. How many pets does he have in total?",
+    "gold": "19",
+    "gold_solution": "He has 6 - 2 = <<6-2=4>>4 cats.\nHe has 4 - 1 = <<4-1=3>>3 parrots.\nHe has 4 + 6 = <<4+6=10>>10 snakes.\nHe has a total of 2 + 4 + 3 + 10 = <<2+4+3+10=19>>19 pets.\n#### 19",
+    "prediction": "2",
+    "correct": false,
+    "responses": [
+      "To solve this problem, we need to determine the number of each type of pet Frankie has and then sum them up to find the total number of pets.\n\n1. **Determine the number of cats**: Since Frankie has six more snakes than cats, if we let \\( C \\) represent the number of cats, then the number of snakes is \\( C + 6 \\). We know that Frankie has two dogs, so the total number of pets (cats, snakes, and dogs) is:\n   \\[\n   C + (C + 6) + 2 = 3C + 8\n   \\]\n   We also know that there are six pets with four legs, which means the total number of legs from all the pets is:\n   \\[\n   4 \\times 6 = 24\n   \\]\n\n2. **Set up the equation for the total number of legs**: The total number of legs can be calculated as follows:\n   - The number of"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 200,
+    "demo_ids": []
+  },
+  {
+    "id": 5897,
+    "question": "Olaf collects colorful toy cars. At first, his collection consisted of 150 cars. His family, knowing his hobby, decided to give him some toy cars. Grandpa gave Olaf twice as many toy cars as the uncle. Dad gave Olaf 10 toy cars, 5 less than Mum. Auntie gave Olaf 6 toy cars, 1 more than the uncle. How many toy cars does Olaf have in total, after receiving all these gifts?",
+    "gold": "196",
+    "gold_solution": "Dad gave Olaf 10 toy cars,\nMom has given Olaf 5 more toy cars than Dad, so 10 + 5 = <<10+5=15>>15 toy cars\nAuntie gave Olaf 6 toy cars,\nUncle has given 1 less toy than Auntie, so 6 - 1 = <<6-1=5>>5 toy cars\nGrandpa gave Olaf 2 * 5 = <<2*5=10>>10 toy cars.\nAll the family together gave Olaf 10 +15 + 6 + 5 + 10 = <<10+15+6+5+10=46>>46.\nAdding the cars Olaf already had, Olaf's collection has 150 + 46 = <<150+46=196>>196 cars.\n#### 196",
+    "prediction": "5",
+    "correct": false,
+    "responses": [
+      "To determine how many toy cars Olaf has in total after receiving all the gifts, we need to calculate the number of toy cars each person gave and then sum them up with the initial amount he had.\n\nFirst, let's define the variables:\n- Let \\( C \\) be the number of toy cars given by the uncle.\n- Then, the number of toy cars given by Grandpa is \\( 2C \\).\n- The number of toy cars given by Dad is \\( C + 10 \\).\n- The number of toy cars given by Mum is \\( C - 5 \\).\n- The number of toy cars given by Auntie is \\( C + 1 \\).\n\nThe total number of toy cars Olaf received from his family is the sum of the toys given by each family member:\n\\[ 2C + (C + 10) + (C - 5) + (C + 1) = 2C + C + C - 5 +"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 200,
+    "demo_ids": []
+  },
+  {
+    "id": 2437,
+    "question": "Emma's bank account has $100 in it. Each day of the week, she spends $8. At the end of the week, she goes to the bank and asks for as many $5 bills as her account can give her. She leaves the rest in the account. How many dollars remain in the account?",
+    "gold": "4",
+    "gold_solution": "She spend $56 because 7 x 8 = <<7*8=56>>56\nShe has $44 left in the bank because 100 - 56 = <<100-56=44>>44\nShe can get 8 five dollar bills because 44 / 5 = <<44/5=8.8>>8.8\nThis is equal to $40 because 8 x 5 = <<8*5=40>>40\nShe has $4 left in the account because 44 - 40 = <<44-40=4>>4\n#### 4",
+    "prediction": "76",
+    "correct": false,
+    "responses": [
+      "To solve this problem, we need to follow these steps:\n\n1. Calculate how much money Emma spends each day.\n2. Determine how much money is left after spending each day.\n3. Calculate how many $5 bills Emma can get from the remaining amount.\n4. Subtract the number of $5 bills from the initial amount to find out how much remains in the account.\n\nLet's go through these steps one by one.\n\n### Step 1: Calculate how much money Emma spends each day.\nEmma spends $8 each day.\n\n### Step 2: Determine how much money is left after spending each day.\nStarting with $100:\n- After the first day: \\(100 - 8 = 92\\)\n- After the second day: \\(92 - 8 = 84\\)\n- After the third day: \\(84 - 8 = 76\\)\n\nSo, after three days, Emma has $76 left in her account.\n\n"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 200,
+    "demo_ids": []
+  },
+  {
+    "id": 6330,
+    "question": "Ezekiel hikes as a hobby. This past summer, he did a challenging three-day hike across 50 kilometers of wilderness. The first day, he covered 10 kilometers of steep mountainside. The second day was flatter and he was able to cover half the full hike distance. How many kilometers did he have to hike on the third day to finish the hike?",
+    "gold": "15",
+    "gold_solution": "After the first day, Ezekiel had 50 - 10 = <<50-10=40>>40 kilometers of the hike left.\nOn the second day, he covered 50 / 2 = <<50/2=25>>25 kilometers.\nTherefore, on the third day, he had 40 - 25 = <<40-25=15>>15 kilometers left to finish the hike.\n#### 15",
+    "prediction": "35",
+    "correct": false,
+    "responses": [
+      "To determine how many kilometers Ezekiel had to hike on the third day to complete his three-day hike, we can follow these steps:\n\n1. **Total Distance Hiked**: Ezekiel hiked a total of 50 kilometers.\n2. **Distance Covered on Day 1**: He covered 10 kilometers on the first day.\n3. **Distance Covered on Day 2**: On the second day, he covered half the full hike distance. Since the total distance is 50 kilometers, half of that is:\n   \\[\n   \\frac{50}{2} = 25 \\text{ kilometers}\n   \\]\n4. **Remaining Distance to be Hiked on Day 3**: To find out how many kilometers he has left to hike on the third day, we subtract the distances covered on the first two days from the total distance:\n   \\[\n   50 - (10 + 25) = 50 - 35 ="
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 200,
+    "demo_ids": []
+  },
+  {
+    "id": 819,
+    "question": "James decides to build a tin house by collecting 500 tins in a week. On the first day, he collects 50 tins. On the second day, he manages to collect 3 times that number. On the third day, he collects 50 tins fewer than the number he collected on the second day. If he collects an equal number of tins on the remaining days of the week, what's the number of tins he collected each day for the rest of the week?",
+    "gold": "50",
+    "gold_solution": "On the second day, he collected 3 times the number of tins he collected on the first day, which is 3*50 = <<3*50=150>>150 tins.\nOn the third day, he collected 50 tins fewer than the second day, which is 150-50 = <<150-50=100>>100 tins\nThe total for the three days is 150+100+50 = <<150+100+50=300>>300 tins.\nTo reach his goal, he still needs 500-300 = <<500-300=200>>200 tins.\nSince the total number of days left in the week is 4, he'll need to collect 200/4 = <<200/4=50>>50 tins per day to reach his goal\n#### 50",
+    "prediction": "500",
+    "correct": false,
+    "responses": [
+      "To solve this problem, let's break it down step by step:\n\n1. **First Day**: James collects 50 tins.\n2. **Second Day**: He collects 3 times the number he collected on the first day.\n   \\[\n   3 \\times 50 = 150 \\text{ tins}\n   \\]\n3. **Third Day**: He collects 50 tins fewer than the number he collected on the second day.\n   \\[\n   150 - 50 = 100 \\text{ tins}\n   \\]\n\nNow, we know the total number of tins collected over the three days is:\n\\[\n50 + 150 + 100 = 300 \\text{ tins}\n\\]\n\nJames wants to build a tin house with 500 tins in a week. To find out how many tins he needs to collect each day for the"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 200,
+    "demo_ids": []
+  },
+  {
+    "id": 5878,
+    "question": "TreQuan is throwing rocks in the river and he notices that the bigger the rock, the wider the splash. Pebbles make a splash that is a 1/4 meter wide. Rocks make a splash that is 1/2 a meter wide, and boulders create a splash that is 2 meters wide. If he tosses 6 pebbles, 3 rocks, and 2 boulders, what is the total width of the splashes he makes?",
+    "gold": "7",
+    "gold_solution": "The pebble's total splash width is 1.5 meters because 6 times 1/4 equals <<6*1/4=1.5>>1.5.\nThe rock's total splash width is 1.5 meters because 3 times 1/2 equals <<3*1/2=1.5>>1.5.\nThe boulder's total splash width is 4 because 2 times 2 equals four.\nThe total splash width for all the rocks is 7 because 1.5 plus 1.5 plus 4 equals 7.\n#### 7",
+    "prediction": "1.5",
+    "correct": false,
+    "responses": [
+      "To solve this problem, we need to calculate the total width of the splashes made by TreQuan based on the given information about the sizes of the rocks and their respective splash widths.\n\n### Step-by-Step Solution:\n\n1. **Calculate the total width for each type of rock:**\n   - Pebbles: Each pebble creates a splash that is \\( \\frac{1}{4} \\) meter wide.\n     - Number of pebbles: 6\n     - Total width for pebbles: \\( 6 \\times \\frac{1}{4} = \\frac{6}{4} = 1.5 \\) meters\n\n   - Rocks: Each rock creates a splash that is \\( \\frac{1}{2} \\) meter wide.\n     - Number of rocks: 3\n     - Total width for rocks: \\( 3 \\times \\frac{1}{2} = \\frac{3}{2} = 1.5 \\"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 200,
+    "demo_ids": []
+  },
+  {
+    "id": 5876,
+    "question": "Thomas made 4 stacks of wooden blocks. The first stack was 7 blocks tall. The second stack was 3 blocks taller than the first. The third stack was 6 blocks shorter than the second stack, and the fourth stack was 10 blocks taller than the third stack. If the fifth stack has twice as many blocks as the second stack, how many blocks did Thomas use in all?",
+    "gold": "55",
+    "gold_solution": "The second stack has 7 blocks + 3 blocks = <<7+3=10>>10 blocks.\nThe third stack has 10 blocks - 6 blocks = <<10-6=4>>4 blocks.\nThe fourth stack has 4 blocks + 10 blocks = <<4+10=14>>14 blocks.\nThe fifth stack has 10 blocks x 2 = <<10*2=20>>20 blocks.\nIn total there are 7 blocks + 10 blocks + 4 blocks + 14 blocks + 20 blocks = <<7+10+4+14+20=55>>55 blocks.\n#### 55",
+    "prediction": "10",
+    "correct": false,
+    "responses": [
+      "To solve this problem, we need to determine the number of blocks in each stack and then sum them up to find the total number of blocks used.\n\n1. **First Stack**: The first stack is given as 7 blocks tall.\n   \\[\n   \\text{Blocks in the first stack} = 7\n   \\]\n\n2. **Second Stack**: The second stack is 3 blocks taller than the first stack.\n   \\[\n   \\text{Blocks in the second stack} = 7 + 3 = 10\n   \\]\n\n3. **Third Stack**: The third stack is 6 blocks shorter than the second stack.\n   \\[\n   \\text{Blocks in the third stack} = 10 - 6 = 4\n   \\]\n\n4. **Fourth Stack**: The fourth stack is 10 blocks taller than the third stack.\n   \\[\n   \\text{Blocks in the fourth stack} = 4 + 10 ="
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 200,
+    "demo_ids": []
+  },
+  {
+    "id": 5308,
+    "question": "Trace has five shopping bags that weigh the same amount as Gordon’s two shopping bags. One of Gordon’s shopping bags weighs three pounds and the other weighs seven. Trace’s shopping bags all weigh the same amount. How many pounds does one of Trace’s bags weigh?",
+    "gold": "2",
+    "gold_solution": "Gordon’s bags weigh 3 + 7 = <<3+7=10>>10 pounds.\nTrace’s five bags all weigh the same amount, so each bag weighs 10 / 5 = <<10/5=2>>2 pounds.\n#### 2",
+    "prediction": "6",
+    "correct": false,
+    "responses": [
+      "To solve this problem, we need to determine the weight of each of Trace's shopping bags given that they weigh the same as Gordon's two shopping bags.\n\n1. **Identify the total weight of Gordon's shopping bags:**\n   - Gordon has two shopping bags.\n   - Each of these bags weighs 3 pounds.\n   - Therefore, the total weight of Gordon's shopping bags is:\n     \\[\n     2 \\times 3 = 6 \\text{ pounds}\n     \\]\n\n2. **Determine the combined weight of Trace's shopping bags:**\n   - We know that Trace's five shopping bags together weigh the same as Gordon's two shopping bags.\n   - The combined weight of Gordon's shopping bags is 6 pounds.\n   - Therefore, the combined weight of Trace's shopping bags is also 6 pounds.\n\n3. **Calculate the weight of one of Trace's shopping bags:**\n   - Since the combined weight of Trace's five shopping bags is 6 pounds"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 200,
+    "demo_ids": []
+  },
+  {
+    "id": 1534,
+    "question": "A library has a number of books. 35% of them are intended for children and 104 of them are for adults. How many books are in the library?",
+    "gold": "160",
+    "gold_solution": "65% of the library books are for adults because 100 - 35 = <<100-35=65>>65\nThere are 160 library books in total because 104 / .65 = <<104/.65=160>>160\n#### 160",
+    "prediction": "104",
+    "correct": false,
+    "responses": [
+      "To solve this problem, we need to determine the total number of books in the library. Let's break it down step by step:\n\n1. **Identify the percentage of books for children**: We know that 35% of the books are intended for children.\n2. **Determine the number of books for children**: Since 35% of the books are for children, we can calculate the number of books for children as follows:\n   \\[\n   \\text{Number of books for children} = 35\\% \\times \\text{Total number of books}\n   \\]\n   This can be written as:\n   \\[\n   \\text{Number of books for children} = 0.35 \\times \\text{Total number of books}\n   \\]\n\n3. **Set up an equation based on the given information**: We also know that there are 104 books for adults. Therefore, the total number of books is the sum of the"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 200,
+    "demo_ids": []
+  },
+  {
+    "id": 2663,
+    "question": "Nicky is trading baseball cards with Jill. If Nicky trades two cards worth $8 each for 1 card worth $21, how many dollars of profit does he make?",
+    "gold": "5",
+    "gold_solution": "First find the total cost of the two $8 cards: $8/card * 2 cards = $<<8*2=16>>16\nThen subtract the cost of the cards Nicky gave away from the cost of the card he received to find his profit: $21 - $16 = $<<21-16=5>>5\n#### 5",
+    "prediction": "21",
+    "correct": false,
+    "responses": [
+      "To determine the profit Nicky makes from the trade, we need to follow these steps:\n\n1. Calculate the total value of the cards traded.\n2. Determine the cost of the cards traded.\n3. Subtract the cost of the cards traded from the total value of the cards traded to find the profit.\n\nLet's start with the first step:\nThe total value of the cards traded is calculated as follows:\n\\[ \\text{Total value of the cards traded} = (\\text{Number of cards traded}) \\times (\\text{Value per card traded}) \\]\n\\[ \\text{Total value of the cards traded} = (2) \\times (8) = 16 \\]\n\nNext, we calculate the cost of the cards traded:\n\\[ \\text{Cost of the cards traded} = (\\text{Number of cards traded}) \\times (\\text{Value per card traded}) \\]\n\\[ \\text{Cost of the cards traded} = (2) \\times (21"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 200,
+    "demo_ids": []
+  },
+  {
+    "id": 4247,
+    "question": "Patricia is making a highlight film about her basketball team. She recorded video of every player and plans to put it all together in a longer movie. She has 130 seconds of the point guard, 145 seconds of the shooting guard, 85 seconds of the small forward, 60 seconds of the power forward, and 180 seconds of the center. How on average, how many minutes does each player get?",
+    "gold": "2",
+    "gold_solution": "The total movie is 600 seconds long because 130 + 145 + 85 + 60 + 180 = <<130+145+85+60+180=600>>600\nThe total movie is 10 minutes long because 600 / 60 = <<600/60=10>>10\nOn average each player gets 2 minutes because 10 / 5 = <<10/5=2>>2\n#### 2",
+    "prediction": "60",
+    "correct": false,
+    "responses": [
+      "To determine how many minutes each player gets on average, we need to follow these steps:\n\n1. **Calculate the total time spent recording videos for each player:**\n   - Point guard: \\( 130 \\) seconds\n   - Shooting guard: \\( 145 \\) seconds\n   - Small forward: \\( 85 \\) seconds\n   - Power forward: \\( 60 \\) seconds\n   - Center: \\( 180 \\) seconds\n\n2. **Sum the total time spent recording videos:**\n   \\[\n   130 + 145 + 85 + 60 + 180 = 600 \\text{ seconds}\n   \\]\n\n3. **Convert the total time from seconds to minutes:**\n   Since there are 60 seconds in a minute, we divide the total seconds by 60:\n   \\[\n   \\frac{600}{60}"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 200,
+    "demo_ids": []
+  },
+  {
+    "id": 4632,
+    "question": "Julie, Letitia and Anton decided to have dinner together at a nearby restaurant.  Julie orders $10 worth of food, Letitia orders $20 worth of food, and Anton orders $30 worth of food.  How much should each pay in tips if they want to split a 20% tip for the whole meal evenly?",
+    "gold": "4",
+    "gold_solution": "First, we need to determine how much the entire meal costs before we can determine the tip. We perform 10+20+30=<<10+20+30=60>>60 dollars worth of food.\nNow we need to find out how much the total tip to be paid is, by multiplying 60*.2=12 dollars in tips.\nSince they want to split this evenly amongst three people, this works out to 12/3= <<12/3=4>>4 dollars in tips per person.\n#### 4",
+    "prediction": "3",
+    "correct": false,
+    "responses": [
+      "To solve this problem, we need to follow these steps:\n\n1. Calculate the total cost of the food ordered.\n2. Determine the total amount of the tip based on the percentage given (20%).\n3. Divide the total tip amount equally among Julie, Letitia, and Anton.\n\nLet's start with step 1:\nThe total cost of the food is the sum of what Julie, Letitia, and Anton ordered:\n\\[ \\text{Total cost} = \\$10 + \\$20 + \\$30 = \\$60 \\]\n\nNext, for step 2:\nWe calculate the total amount of the tip by multiplying the total cost by the tip percentage (20% or 0.20):\n\\[ \\text{Tip amount} = \\$60 \\times 0.20 = \\$12 \\]\n\nFinally, for step 3:\nWe divide the total tip amount by 3 (Julie, Letitia, and Anton) to find out"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 200,
+    "demo_ids": []
+  },
+  {
+    "id": 1727,
+    "question": "Niko has bought 9 pairs of socks that cost $2 each and plans to resell them. He wants to gain 25% profit from four of the pairs of socks and $0.2 profit each for the other 5 pairs of socks. How much will his total profit be?",
+    "gold": "3",
+    "gold_solution": "Niko will earn $2 x 25/100 = $<<2*25/100=0.5>>0.5 profit for each of the first four pairs of socks.\nSo, his total profit for the four pairs of socks will be $0.5 x 4 = $<<0.5*4=2>>2.\nHis total earnings for the 5 pairs of socks is $0.2 x 5 = $<<0.2*5=1>>1.\nTherefore, his total profit will be $2 + $1 = $<<2+1=3>>3.\n#### 3",
+    "prediction": "0.8",
+    "correct": false,
+    "responses": [
+      "To determine Niko's total profit, we need to calculate the profit from selling the socks separately for the two different prices and then sum these profits.\n\nFirst, let's calculate the profit from selling the four pairs of socks at the higher price:\n- The cost of one pair of socks is $2.\n- The profit per pair of socks at the higher price is \\(2 \\times (1 + 0.25) = 2 \\times 1.25 = \\$2.5\\).\n- Therefore, the total profit from selling four pairs of socks at the higher price is \\(4 \\times 2.5 = \\$10\\).\n\nNext, let's calculate the profit from selling the five pairs of socks at the lower price:\n- The cost of one pair of socks is $2.\n- The profit per pair of socks at the lower price is \\(2 \\times (1 - 0.2) = 2 \\times 0.8 = \\$"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 200,
+    "demo_ids": []
+  },
+  {
+    "id": 1601,
+    "question": "The number of short students in a class is 2/5 of the total number of students. If there are 90 tall students, and the class has 400 students, calculate the total number of students with average height.",
+    "gold": "150",
+    "gold_solution": "The number of short students in the class is 2/5*400 = <<2/5*400=160>>160\nThe total number of short and tall students is 160+90 = <<160+90=250>>250\nSince there are 400 students in the class, the number of students with average height is 400-250 = <<400-250=150>>150\n#### 150",
+    "prediction": "3",
+    "correct": false,
+    "responses": [
+      "To solve this problem, we need to determine the total number of students with an average height. Let's break it down step by step:\n\n1. **Identify the given information:**\n   - The number of short students is \\(\\frac{2}{5}\\) of the total number of students.\n   - There are 90 tall students.\n   - The total number of students is 400.\n\n2. **Calculate the number of short students:**\n   Since the number of short students is \\(\\frac{2}{5}\\) of the total number of students, we can set up the equation:\n   \\[\n   \\text{Number of short students} = \\frac{2}{5} \\times 400\n   \\]\n   Simplifying this, we get:\n   \\[\n   \\text{Number of short students} = \\frac{800}{5} = 160\n   \\]\n\n3. **D"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 200,
+    "demo_ids": []
+  },
+  {
+    "id": 3848,
+    "question": "James buys 20 coins of a cryptocurrency at $15 each.  The value of the coins increases by 2/3.  He sells coins to recoup his original investment.  How many coins did he sell?",
+    "gold": "12",
+    "gold_solution": "His original investment was 15*20=$<<15*20=300>>300\nThe value of his investment increases by 15*2/3=$<<15*2/3=10>>10 per coin\nSo each coin was worth 15+10=$<<15+10=25>>25\nSo he sold 300/25=<<300/25=12>>12 coins\n#### 12",
+    "prediction": "25",
+    "correct": false,
+    "responses": [
+      "To solve this problem, we need to determine how many coins James needs to sell to recover his original investment after the increase in their value.\n\n### Step-by-Step Solution:\n\n1. **Calculate the total cost of the initial investment:**\n   - James bought 20 coins at $15 each.\n   \\[\n   \\text{Total cost} = 20 \\times 15 = \\$300\n   \\]\n\n2. **Determine the new value of the coins after the increase:**\n   - The value of the coins increases by \\( \\frac{2}{3} \\) of their original price.\n   \\[\n   \\text{Increase in value} = \\frac{2}{3} \\times 15 = \\$10\n   \\]\n   - Therefore, the new value of the coins is:\n   \\[\n   \\text{New value} = 15 + 10 = \\$25\n   \\]\n\n"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 200,
+    "demo_ids": []
+  },
+  {
+    "id": 6009,
+    "question": "In the park, the first rose bush has 12 red flowers.  The second rose bush has 18 pink flowers.  The third rose bush has 20 yellow flowers.  The fourth rose bush has 8 orange flowers.  For her vase, Lorelei picks 50% of the red roses, 50% pink roses, 25% of the yellow roses, and 25% orange roses. How many roses are in her vase?",
+    "gold": "22",
+    "gold_solution": "The number of red roses Lorelei picks is 12 x 50% = <<12*50*.01=6>>6 roses.\nThe number of pink roses Lorelei picks is 18 x 50% = <<18*50*.01=9>>9 roses.\nThe number of yellow roses she picks is 20 x 25% = <<20*25*.01=5>>5 roses.\nThe number of orange roses she picks is 8 x 25% = <<8*25*.01=2>>2 roses.\nThe total number of roses in her vase is 6 + 9 + 5 + 2 = <<6+9+5+2=22>>22 roses.\n#### 22",
+    "prediction": "25",
+    "correct": false,
+    "responses": [
+      "To determine how many roses Lorelei picked for her vase, we need to calculate the number of each type of flower she picked based on the given percentages and then sum these amounts.\n\nFirst, let's find out how many red roses Lorelei picked:\n- The total number of red roses is 12.\n- She picked 50% of them.\n\\[ \\text{Number of red roses} = 12 \\times 0.50 = 6 \\]\n\nNext, let's find out how many pink roses Lorelei picked:\n- The total number of pink roses is 18.\n- She picked 50% of them.\n\\[ \\text{Number of pink roses} = 18 \\times 0.50 = 9 \\]\n\nNow, let's find out how many yellow roses Lorelei picked:\n- The total number of yellow roses is 20.\n- She picked 25% of them.\n\\[ \\text{Number of"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 200,
+    "demo_ids": []
+  },
+  {
+    "id": 1948,
+    "question": "Tonya has opened a lemonade stand selling lemonade in small, medium, and large cups at $1, $2 and $3 respectively. At the close of business she ended up making $50.  As she went back through her inventory she noticed that she sold $11 worth of small lemonades and $24 worth of medium lemonades. How many cups of large lemonade did Tonya sell?",
+    "gold": "5",
+    "gold_solution": "1. Tonya sold $11 worth of small lemonades and $24 worth of medium lemonades which makes $11 + $24= $<<11+24=35>>35 for small and medium lemonades.\n2. Tonya made a total of $50. If she made $35 selling the two smaller sizes and she sold three sizes in all then $50-$35= $<<50-35=15>>15 worth of large lemonades.\n3. The large lemonades sold for $3 each and Tonya sold $15 worth of large lemonades which means she sold $15/$3=<<15/3=5>>5 large cups of lemonade.\n#### 5",
+    "prediction": "3",
+    "correct": false,
+    "responses": [
+      "To determine how many cups of large lemonade Tonya sold, we need to follow these steps:\n\n1. **Identify the prices for each size of cup:**\n   - Small cup: $1\n   - Medium cup: $2\n   - Large cup: $3\n\n2. **Calculate the total revenue from small and medium cups:**\n   - Revenue from small cups: \\( 1 \\text{ dollar} \\times 11 = \\$11 \\)\n   - Revenue from medium cups: \\( 2 \\text{ dollars} \\times 24 = \\$48 \\)\n\n3. **Sum the revenues from small and medium cups:**\n   - Total revenue from small and medium cups: \\( \\$11 + \\$48 = \\$59 \\)\n\n4. **Determine the number of large cups sold:**\n   - Total revenue: $59\n   - Price per large cup: $3\n   - Number of large cups sold"
+    ],
+    "marked": [
+      false
+    ],
+    "truncated": [
+      true
+    ],
+    "generated_tokens": 200,
+    "demo_ids": []
+  }
+]

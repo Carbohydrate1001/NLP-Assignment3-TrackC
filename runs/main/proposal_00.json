@@ -1,0 +1,32 @@
+{
+  "config": {
+    "instruction": "Solve step by step in at most six short lines, keeping each person's quantities separate. Apply discounts/divisions to the correct remainder, and never invent variables or equations not implied by the text. Answer exactly the quantity asked, ending with a line: #### <number>",
+    "demo_ids": [
+      4,
+      13,
+      19
+    ]
+  },
+  "audit": {
+    "model": "deepseek-flash",
+    "response_model": "deepseek-flash",
+    "base_url": "https://api.deepseek.com",
+    "response": "{\"instruction\": \"Solve step by step in at most six short lines, keeping each person's quantities separate. Apply discounts/divisions to the correct remainder, and never invent variables or equations not implied by the text. Answer exactly the quantity asked, ending with a line: #### <number>\", \"demo_ids\": [4, 13, 19]}",
+    "usage": {
+      "prompt_tokens": 4478,
+      "completion_tokens": 72,
+      "total_tokens": 4550,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 4478
+    },
+    "request_hash": "872e6c871627757e72eae55fa18da482465fd4ab3ce9405c417f713559346a8b",
+    "thinking": {
+      "type": "disabled"
+    },
+    "elapsed_seconds": 1.6597127999993972
+  },
+  "time_utc": "2026-11-23T06:31:57.656781+00:00"
+}

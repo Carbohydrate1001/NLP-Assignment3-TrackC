@@ -1,0 +1,5 @@
+﻿variant,accuracy,n,elapsed_seconds,generated_tokens,generations,marked_rate,truncation_rate,peak_allocated_mb,seed,max_new_tokens
+baseline,0.26,100,56.27331540000159,24488,100,0.07,0.7,1119.59375,42,256
+instruction_only,0.37,100,63.90843110001879,22360,100,0.0,0.44,1132.31591796875,42,256
+demos_only,0.48,100,59.97487239999464,19893,100,0.14,0.31,1322.921875,42,256
+instruction_and_demos,0.4,100,66.46969619998708,17510,100,0.17,0.29,1338.330078125,42,256
